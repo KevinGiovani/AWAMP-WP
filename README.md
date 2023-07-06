@@ -8,7 +8,9 @@ Integrantes del proyecto:
 - Mendibil Pacheco Cesar Magdiel
 
 Materia: Ingenieria de Software
-Docente: Olguin Espinoza Jose Martin
-Universidad Autonoma de Baja Calfornia
-Mexicali,B.C.,Mexico
 
+Docente: Olguin Espinoza Jose Martin
+
+Universidad Autonoma de Baja Calfornia
+
+Mexicali,B.C.,Mexico
