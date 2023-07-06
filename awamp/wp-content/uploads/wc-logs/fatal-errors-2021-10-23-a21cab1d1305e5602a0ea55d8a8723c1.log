@@ -1,0 +1,1405 @@
+2021-10-23T06:49:41+00:00 CRITICAL Uncaught Error: Attempt to modify property "response" on null in C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\modules\jet-dashboard\inc\plugin-manager.php:313
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(305): Jet_Dashboard\Plugin_Manager->check_update(NULL)
+#1 C:\xampp\htdocs\awamp\wp-includes\plugin.php(189): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\option.php(1977): apply_filters('pre_set_site_tr...', NULL, 'update_plugins')
+#3 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\modules\jet-dashboard\inc\data-manager.php(213): set_site_transient('update_plugins', NULL)
+#4 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Jet_Dashboard\Data_Manager->jet_dashboard_debug_action('')
+#5 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#6 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_jet_das...')
+#8 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\modules\jet-dashboard\inc\plugin-manager.php en la línea 313
+
+2021-10-23T19:11:28+00:00 CRITICAL Uncaught Error: Call to a member function is_editable_by_current_user() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\includes\managers\widgets.php:305
+Stack trace:
+#0 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\includes\managers\widgets.php en la línea 305
+
+2021-10-23T19:11:31+00:00 CRITICAL Uncaught Error: Call to a member function is_editable_by_current_user() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\includes\managers\widgets.php:305
+Stack trace:
+#0 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\includes\managers\widgets.php en la línea 305
+
+2021-10-23T19:11:45+00:00 CRITICAL Uncaught Error: Call to a member function is_editable_by_current_user() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\includes\managers\widgets.php:305
+Stack trace:
+#0 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\includes\managers\widgets.php en la línea 305
+
+2021-10-23T19:11:47+00:00 CRITICAL Uncaught Error: Call to a member function is_editable_by_current_user() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\includes\managers\widgets.php:305
+Stack trace:
+#0 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\includes\managers\widgets.php en la línea 305
+
+2021-10-23T19:12:06+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php en la línea 487
+
+2021-10-23T19:12:56+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php en la línea 487
+
+2021-10-23T19:13:00+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php en la línea 487
+
+2021-10-23T19:13:22+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php en la línea 487
+
+2021-10-23T19:13:36+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php en la línea 487
+
+2021-10-23T19:13:46+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php en la línea 487
+
+2021-10-23T19:13:50+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php en la línea 487
+
+2021-10-23T19:14:30+00:00 CRITICAL Uncaught Error: Call to a member function is_built_with_elementor() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php:487
+Stack trace:
+#0 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#1 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#6 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php en la línea 487
+
+2021-10-23T21:03:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:05:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:07:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:07:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:08:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:08:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:09:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:10:16+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:11:06+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:11:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:12:53+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:13:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:14:11+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:14:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:15:01+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:15:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:15:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:15:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:15:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:16:22+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:16:55+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:17:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:18:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:18:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:21:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:21:20+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:21:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:22:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:22:18+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:23:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:23:24+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:24:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:24:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:24:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:26:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:26:54+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:27:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:29:38+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:31:14+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:32:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:34:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:34:49+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:34:52+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:36:12+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:37:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:41:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:41:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:51:57+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:54:14+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T21:55:10+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:00:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:01:05+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:01:28+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:02:25+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:03:04+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:03:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:04:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:05:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:21:46+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:22:43+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:28:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:29:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-23T22:30:13+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+

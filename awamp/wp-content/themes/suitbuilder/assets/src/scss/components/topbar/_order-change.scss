@@ -1,0 +1,63 @@
+.type_1 {
+    .order-change-1 {
+        order: 1;
+    }
+    .order-change-2 {
+        order: 2;
+    }
+    .order-change-3 {
+        order: 3;
+    }
+}
+
+.type_2 {
+    .order-change-1 {
+        order: 3;
+    }
+    .order-change-2 {
+        order: 1;
+        ul {
+            text-align: left;
+        }
+    }
+    .order-change-3 {
+        order: 2;
+        ul {
+            text-align: left;
+        }
+    }
+}
+
+.type_3 {
+    .order-change-1 {
+        order: 3;
+    }
+    .order-change-2 {
+        order: 2;
+    }
+    .order-change-3 {
+        order: 1;
+    }
+}
+
+.type_4 {
+    .order-change-1 {
+        order: 1;
+    }
+    .order-change-2 {
+        order: 3;
+    }
+    .order-change-3 {
+        order: 2;
+    }
+}
+
+.order-change-1 {
+    flex-grow: 1;
+}
+.order-change-2 {
+    flex-grow: 1;
+}
+.order-change-3 {
+    flex-grow: 1;
+}

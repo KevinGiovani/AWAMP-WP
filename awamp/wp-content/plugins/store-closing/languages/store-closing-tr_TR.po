@@ -1,0 +1,881 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Store Closing\n"
+"POT-Creation-Date: 2019-04-04 18:33+0300\n"
+"PO-Revision-Date: 2019-04-04 18:35+0300\n"
+"Last-Translator: \n"
+"Language-Team: ozibal <ozibal@gmail.com>\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: includes/admin/admin-post-action.php:76
+#: includes/admin/admin-post-action.php:89
+msgid "New rank"
+msgstr "Yeni sıra"
+
+#: includes/admin/admin-post-action.php:121
+msgid "There is record for this role"
+msgstr "Bu rol için kayıt mevcut"
+
+#: includes/admin/admin-post-action.php:141
+msgid "There is record for this user"
+msgstr "Bu kullanıcı için kayıt mevcut"
+
+#: includes/admin/admin-post-action.php:155
+msgid "Record was changed."
+msgstr "Kayıt değişti."
+
+#: includes/admin/admin.php:38 storeclosing.php:130 storeclosing.php:147
+#: storeclosing.php:148
+msgid "Store Closing"
+msgstr "Magaza Kapama"
+
+#: includes/admin/admin.php:43 includes/admin/admin.php:541
+#: includes/class-storeclosing-plugin-config.php:85
+msgid "Active"
+msgstr "Aktif"
+
+#: includes/admin/admin.php:51
+msgid "Current Time (from Wordpress Setting)"
+msgstr "Mevcut Saat (Wordpress Ayarlardan)"
+
+#: includes/admin/admin.php:57 includes/storeclosing-show.php:319
+#: includes/storeclosing-show.php:323
+msgid "Daily"
+msgstr "Günlük"
+
+#: includes/admin/admin.php:58
+msgid "Upcoming"
+msgstr "Tarih"
+
+#: includes/admin/admin.php:59 includes/storeclosing-show.php:45
+msgid "Manual"
+msgstr "Manuel"
+
+#: includes/admin/admin.php:62
+msgid "Popup"
+msgstr "Popup"
+
+#: includes/admin/admin.php:63
+msgid "Exclude"
+msgstr "Hariç"
+
+#: includes/admin/admin.php:64
+msgid "Notification"
+msgstr "Bildirim"
+
+#: includes/admin/admin.php:65 includes/class-storeclosing-plugin-config.php:87
+#: includes/storeclosing-plugin.php:9
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: includes/admin/admin.php:69
+msgid "RemindMe"
+msgstr "BanaHatırlat"
+
+#: includes/admin/admin.php:124
+msgid "More details and documentation page"
+msgstr "Daha fazla bilgi sayfası"
+
+#: includes/admin/admin.php:143
+msgid "First"
+msgstr "İlk"
+
+#: includes/admin/admin.php:148 includes/admin/admin.php:206
+#: includes/admin/admin.php:373 includes/storeclosing-shortcode.php:79
+#: includes/storeclosing-shortcode.php:129
+#: includes/storeclosing-shortcode.php:133
+#: includes/storeclosing-shortcode.php:170
+#: includes/storeclosing-shortcode.php:205
+msgid "Opening"
+msgstr "Açılış"
+
+#: includes/admin/admin.php:150 includes/admin/admin.php:208
+#: includes/admin/admin.php:325 includes/storeclosing-shortcode.php:78
+#: includes/storeclosing-shortcode.php:127
+#: includes/storeclosing-shortcode.php:131
+#: includes/storeclosing-shortcode.php:168
+#: includes/storeclosing-shortcode.php:203
+msgid "Closing"
+msgstr "Kapanış"
+
+#: includes/admin/admin.php:153 includes/admin/admin.php:190
+#: includes/admin/admin.php:211 includes/admin/admin.php:247
+#: includes/admin/admin.php:654 includes/admin/admin.php:700
+#: includes/admin/admin.php:725 includes/admin/admin.php:751
+#: includes/admin/admin.php:777
+msgid "Message"
+msgstr "Mesaj"
+
+#: includes/admin/admin.php:201
+msgid "Second"
+msgstr "İkinci"
+
+#: includes/admin/admin.php:256
+msgid "If active day message is empty"
+msgstr "Eğer aktif gün mesajı boş ise"
+
+#: includes/admin/admin.php:256 includes/admin/admin.php:679
+#: includes/admin/admin.php:783
+msgid "General Notification Message"
+msgstr "Genel Bildirim Mesajı"
+
+#: includes/admin/admin.php:256
+msgid " will shows."
+msgstr " gösterilecektir."
+
+#: includes/admin/admin.php:256 includes/admin/admin.php:682
+msgid "Active Hours"
+msgstr "Aktif Saatler"
+
+#: includes/admin/admin.php:256 includes/admin/admin.php:425
+#: includes/admin/admin.php:682
+msgid "Countdown"
+msgstr "Geri Sayım"
+
+#: includes/admin/admin.php:316
+msgid "New Upcoming Plan"
+msgstr "Yeni Plan"
+
+#: includes/admin/admin.php:329 includes/admin/admin.php:377
+#: includes/storeclosing-shortcode.php:82
+#: includes/storeclosing-shortcode.php:84
+msgid "Date"
+msgstr "Tarih"
+
+#: includes/admin/admin.php:331 includes/admin/admin.php:379
+msgid "Hour"
+msgstr "Saat"
+
+#: includes/admin/admin.php:333 includes/admin/admin.php:381
+msgid "Minute"
+msgstr "Dakika"
+
+#: includes/admin/admin.php:336 includes/admin/admin.php:384
+msgid "Notification Message"
+msgstr "Bildirim Mesajınız"
+
+#: includes/admin/admin.php:338
+msgid ""
+"When you want to close your store for a future date, you can give an earlier "
+"info for your customers. Select the day you want this message appear."
+msgstr ""
+"Gelecekteki bir tarih için mağazanızı kapatmak istediğinizde, müşterileriniz "
+"için daha erken bir bilgi verebilirsiniz. Bu mesajın görünmesini istediğiniz "
+"günü seçin."
+
+#: includes/admin/admin.php:338
+msgid "Show Message"
+msgstr "Mesajı Göster"
+
+#: includes/admin/admin.php:354 includes/admin/admin.php:365
+msgid "Daily Message to be displayed when this message is active ?"
+msgstr "Bu mesaj aktifken günlük mesaj görüntülenecek mi?"
+
+#: includes/admin/admin.php:404
+msgid "Business Plan"
+msgstr "İş Planı"
+
+#: includes/admin/admin.php:412
+msgid "Open until"
+msgstr "Açılacak"
+
+#: includes/admin/admin.php:413
+msgid "Close until"
+msgstr "Kapanacak"
+
+#: includes/admin/admin.php:425
+msgid "Closing Time"
+msgstr "Kapanış zamanı"
+
+#: includes/admin/admin.php:425
+msgid "Opening Time"
+msgstr "Açılış zamanı"
+
+#: includes/admin/admin.php:446
+msgid "This option close your store and shows general notification message."
+msgstr "Bu seçenek mağazanızı kapatır ve genel bildirim mesajı gösterir."
+
+#: includes/admin/admin.php:446
+msgid "Without timestamp and countdown"
+msgstr "Saatler ve Geri Sayım olmadan"
+
+#: includes/admin/admin.php:447
+msgid "Click for general message"
+msgstr "Genel mesaj için tıklayınız"
+
+#: includes/admin/admin.php:455
+msgid "STORE is CLOSE"
+msgstr "MAĞAZA KAPALI"
+
+#: includes/admin/admin.php:455
+msgid "STORE is OPEN"
+msgstr "MAĞAZA AÇIK"
+
+#: includes/admin/admin.php:481
+msgid "Popup Preview"
+msgstr "Önizleme"
+
+#: includes/admin/admin.php:485
+msgid "Show in Area"
+msgstr "Gösterim Yeri"
+
+#: includes/admin/admin.php:488
+msgid "Top"
+msgstr "Üst"
+
+#: includes/admin/admin.php:489
+msgid "Bottom"
+msgstr "Alt"
+
+#: includes/admin/admin.php:503 includes/admin/admin.php:905
+#: includes/class-storeclosing-plugin-config.php:86
+msgid "Store is currently open"
+msgstr "Mağaza şu an açık"
+
+#: includes/admin/admin.php:513 includes/admin/admin.php:642
+msgid "Css Class"
+msgstr "Css Sınıfı"
+
+#: includes/admin/admin.php:517
+msgid "Close Button"
+msgstr "Kapama Butonu"
+
+#: includes/admin/admin.php:520
+msgid "Yes"
+msgstr "Evet"
+
+#: includes/admin/admin.php:521
+msgid "No"
+msgstr "Hayır"
+
+#: includes/admin/admin.php:526
+msgid "Closing Time (sec)"
+msgstr "Kapanış zamanı (sn)"
+
+#: includes/admin/admin.php:530 includes/admin/admin.php:646
+msgid "Background Color"
+msgstr "Zemin rengi"
+
+#: includes/admin/admin.php:534 includes/admin/admin.php:650
+msgid "Transparent (%)"
+msgstr "Saydamlık (%)"
+
+#: includes/admin/admin.php:538
+msgid "Cookie Expires"
+msgstr "Çerez Süresi"
+
+#: includes/admin/admin.php:542
+msgid "Pasive"
+msgstr "Pasif"
+
+#: includes/admin/admin.php:547
+msgid "Days"
+msgstr "Gün"
+
+#: includes/admin/admin.php:551
+msgid "Hours"
+msgstr "Saat"
+
+#: includes/admin/admin.php:555
+msgid "Minutes"
+msgstr "Dakika"
+
+#: includes/admin/admin.php:559
+msgid "Seconds"
+msgstr "Saniye"
+
+#: includes/admin/admin.php:563
+msgid "Exclude Page"
+msgstr "Sayfada Gösterme"
+
+#: includes/admin/admin.php:563
+msgid ""
+"The popup message will not show at the selected pages. If you want select "
+"page, click on the page name."
+msgstr ""
+"Açılır mesaj seçilen sayfalarda gösterilmeyecek. Sayfa seçmek isterseniz, "
+"sayfa adına tıklayınız."
+
+#: includes/admin/admin.php:608
+msgid ""
+"You can set start and end times for exclude process. If you set 00 process "
+"works without time limitation."
+msgstr ""
+"Hariç tutma işlemi için başlangıç ve bitiş zamanlarını ayarlayabilirsiniz. "
+"00’ı ayarlarsanız, işlem zaman sınırlaması olmadan çalışır."
+
+#: includes/admin/admin.php:612
+msgid "Exclude Category"
+msgstr "Kategoriyi Hariç Tut"
+
+#: includes/admin/admin.php:615
+msgid "Select Category"
+msgstr "Kategoriyi Seçiniz"
+
+#: includes/admin/admin.php:633
+msgid "Product Name"
+msgstr "Ürün Adı"
+
+#: includes/admin/admin.php:658
+msgid "Unauthorized Product(s) List"
+msgstr "İzin Verilmeyen Ürün Listesi"
+
+#: includes/admin/admin.php:658
+msgid "Blank"
+msgstr "Boş"
+
+#: includes/admin/admin.php:658
+msgid "Invisible"
+msgstr "Görüntülenmez"
+
+#: includes/admin/admin.php:690
+msgid "Dayparts Notification Message"
+msgstr "Gün Bölümleri Bildirim Mesajı"
+
+#: includes/admin/admin.php:695
+msgid "Starting"
+msgstr "Başlangıç"
+
+#: includes/admin/admin.php:697
+msgid "Ending"
+msgstr "Bitiş"
+
+#: includes/admin/admin.php:705
+msgid "Morning"
+msgstr "Sabah"
+
+#: includes/admin/admin.php:731
+msgid "Noon"
+msgstr "Öğlen"
+
+#: includes/admin/admin.php:757
+msgid "Evening"
+msgstr "Akşam"
+
+#: includes/admin/admin.php:787
+msgid "Product Page Notification"
+msgstr "Ürün Sayfası Bildirimi"
+
+#: includes/admin/admin.php:797
+msgid "1 - woocommerce_before_single_product"
+msgstr ""
+
+#: includes/admin/admin.php:798
+msgid "2 - woocommerce_before_single_product_summary"
+msgstr ""
+
+#: includes/admin/admin.php:799
+msgid "3 - woocommerce_single_product_summary"
+msgstr ""
+
+#: includes/admin/admin.php:800
+msgid "4 - woocommerce_before_add_to_cart_form"
+msgstr ""
+
+#: includes/admin/admin.php:801
+msgid "5 - woocommerce_before_variations_form"
+msgstr ""
+
+#: includes/admin/admin.php:802
+msgid "6 - woocommerce_before_add_to_cart_button"
+msgstr ""
+
+#: includes/admin/admin.php:803
+msgid "7 - woocommerce_before_single_variation"
+msgstr ""
+
+#: includes/admin/admin.php:804
+msgid "8 - woocommerce_single_variation"
+msgstr ""
+
+#: includes/admin/admin.php:805
+msgid "9 - woocommerce_after_single_variation"
+msgstr ""
+
+#: includes/admin/admin.php:806
+msgid "10 - woocommerce_after_add_to_cart_button"
+msgstr ""
+
+#: includes/admin/admin.php:807
+msgid "11 - woocommerce_after_variations_form"
+msgstr ""
+
+#: includes/admin/admin.php:808
+msgid "12 - woocommerce_after_add_to_cart_form"
+msgstr ""
+
+#: includes/admin/admin.php:809
+msgid "13 - woocommerce_product_meta_start"
+msgstr ""
+
+#: includes/admin/admin.php:810
+msgid "14 - woocommerce_product_meta_end"
+msgstr ""
+
+#: includes/admin/admin.php:811
+msgid "15 - woocommerce_after_single_product_summary"
+msgstr ""
+
+#: includes/admin/admin.php:812
+msgid "16 - woocommerce_after_single_product"
+msgstr ""
+
+#: includes/admin/admin.php:817
+msgid "Shop Page Notification"
+msgstr "Mağaza Sayfası Bildirimi"
+
+#: includes/admin/admin.php:827
+msgid "1 - woocommerce_before_shop_loop"
+msgstr ""
+
+#: includes/admin/admin.php:828
+msgid "2 - woocommerce_after_shop_loop"
+msgstr ""
+
+#: includes/admin/admin.php:833
+msgid "Cart Page Notification"
+msgstr "Sepet Sayfası Bildirimi"
+
+#: includes/admin/admin.php:843
+msgid "1 - woocommerce_before_cart"
+msgstr ""
+
+#: includes/admin/admin.php:844
+msgid "2 - woocommerce_after_cart_table"
+msgstr ""
+
+#: includes/admin/admin.php:845
+msgid "3 - woocommerce_before_cart_totals"
+msgstr ""
+
+#: includes/admin/admin.php:846
+msgid "4 - woocommerce_after_cart_totals"
+msgstr ""
+
+#: includes/admin/admin.php:847
+msgid "5 - woocommerce_after_cart"
+msgstr ""
+
+#: includes/admin/admin.php:852
+msgid "Payment Page Notification"
+msgstr "Ödeme Sayfası Bildirimi"
+
+#: includes/admin/admin.php:862
+msgid "1 - woocommerce_checkout_before_customer_details"
+msgstr ""
+
+#: includes/admin/admin.php:863
+msgid "2 - woocommerce_checkout_after_customer_details"
+msgstr ""
+
+#: includes/admin/admin.php:864
+msgid "3 - woocommerce_checkout_before_order_review"
+msgstr ""
+
+#: includes/admin/admin.php:865
+msgid "4 - woocommerce_review_order_before_payment"
+msgstr ""
+
+#: includes/admin/admin.php:866
+msgid "5 - woocommerce_checkout_after_order_review"
+msgstr ""
+
+#: includes/admin/admin.php:891
+msgid "Notification Settings"
+msgstr "Bildirim Ayarları"
+
+#: includes/admin/admin.php:894
+msgid "Default CSS"
+msgstr "Standart CSS"
+
+#: includes/admin/admin.php:895
+msgid "Custom"
+msgstr "Özel CSS"
+
+#: includes/admin/admin.php:913
+msgid "Background color"
+msgstr "Zemin rengi"
+
+#: includes/admin/admin.php:925
+msgid "Text color"
+msgstr "Yazı rengi"
+
+#: includes/admin/admin.php:929
+msgid "Width"
+msgstr "Genişlik"
+
+#: includes/admin/admin.php:933
+msgid "Padding"
+msgstr "İç Boşluk"
+
+#: includes/admin/admin.php:937
+msgid "Font Size"
+msgstr "Yazı Boyutu"
+
+#: includes/admin/admin.php:941
+msgid "Text Align"
+msgstr "Yazı Hizalama"
+
+#: includes/admin/admin.php:945
+msgid "Border Style"
+msgstr "Kenarlık Stili"
+
+#: includes/admin/admin.php:948 includes/admin/admin.php:974
+msgid "None"
+msgstr "Yok"
+
+#: includes/admin/admin.php:949
+msgid "Solid"
+msgstr "Dolu"
+
+#: includes/admin/admin.php:950
+msgid "Dashed"
+msgstr "Çizgili"
+
+#: includes/admin/admin.php:951
+msgid "Dotted"
+msgstr "Noktalı"
+
+#: includes/admin/admin.php:955
+msgid "Border Width"
+msgstr "Kenarlık Genişliği"
+
+#: includes/admin/admin.php:959
+msgid "Border color"
+msgstr "Kenarlık Rengi"
+
+#: includes/admin/admin.php:963
+msgid "Border Radius"
+msgstr "Kenar Yuvarlama"
+
+#: includes/admin/admin.php:967
+msgid "Margin"
+msgstr "Dış Boşluk"
+
+#: includes/admin/admin.php:971
+msgid "Icon"
+msgstr "Ikon"
+
+#: includes/admin/admin.php:975
+msgid "Info"
+msgstr "Bilgi"
+
+#: includes/admin/admin.php:976 includes/storeclosing-show.php:137
+#: includes/storeclosing-show.php:170
+msgid "Warning"
+msgstr "Uyarı"
+
+#: includes/admin/admin.php:977
+msgid "Clock"
+msgstr "Saat"
+
+#: includes/admin/admin.php:978
+msgid "Key"
+msgstr "Anahtar"
+
+#: includes/admin/admin.php:979
+msgid "Speech"
+msgstr "Konuşma"
+
+#: includes/admin/admin.php:980
+msgid "Lock"
+msgstr "Kilit"
+
+#: includes/admin/admin.php:981
+msgid "Unlock"
+msgstr "Açık Kilit"
+
+#: includes/admin/admin.php:982
+msgid "Megaphone"
+msgstr "Megafon"
+
+#: includes/admin/admin.php:983
+msgid "Cart"
+msgstr "Sepet"
+
+#: includes/admin/admin.php:989
+msgid "Role Permision"
+msgstr "Rol İzni"
+
+#: includes/admin/admin.php:993
+msgid "Select Role"
+msgstr "Rol Seçiniz"
+
+#: includes/admin/admin.php:1004
+msgid "Backup"
+msgstr "Yedek"
+
+#: includes/admin/admin.php:1006
+msgid "Backup All Settings Now"
+msgstr "Tüm Ayarları Yedekle"
+
+#: includes/admin/admin.php:1010
+msgid "Restore Last Backup"
+msgstr "Son Yedeği GeriAl"
+
+#: includes/admin/admin.php:1011
+msgid "Clear all data"
+msgstr "Tüm veriyi temizle"
+
+#: includes/admin/admin.php:1027
+msgid "Close this"
+msgstr "Bunu kapat"
+
+#: includes/admin/admin.php:1029
+msgid "WooCommerce Remind Me"
+msgstr "WooCommerce Bana Hatırlat"
+
+#: includes/admin/admin.php:1030
+msgid "This plugin"
+msgstr "Bu eklenti"
+
+#: includes/admin/admin.php:1030
+msgid ""
+"Places a great-looking animated bell icon under the WSC (WooCommerce Store "
+"Closing) notifications. Your customers can type in email addresses and add a "
+"reminder. Automatically sends e-mail when the store is open."
+msgstr ""
+"WSC (WooCommerce Mağaza Kapama) bildirimlerinin altında muhteşem görünümlü "
+"hareketli bir zil simgesi yerleştirir. Müşterileriniz e-posta adreslerini "
+"yazabilir ve bir hatırlatma ekleyebilir. Mağaza açık olduğunda otomatik "
+"olarak e-posta gönderir."
+
+#: includes/admin/admin.php:1031
+msgid "More Details"
+msgstr "Daha fazla detay"
+
+#: includes/admin/tips.php:66 includes/storeclosing-show.php:601
+msgid "Close"
+msgstr "Kapat"
+
+#: includes/admin/tips.php:69
+msgid "Next"
+msgstr "Sonraki"
+
+#: includes/admin/tips.php:70
+msgid "Prev"
+msgstr "Önceki"
+
+#: includes/admin/tips.php:80
+msgid "START HERE"
+msgstr "BURADAN BAŞLA"
+
+#: includes/admin/tips.php:81
+msgid ""
+"You can set two different opening and closing times for the days of the "
+"week. The \"checkbox\" next to the day must be selected in order for the "
+"selected hours will be active. \"WooCommerce\" store will be opened online "
+"order at the selected time. Outside these hours, the \"order\" and \"order "
+"complete\" buttons will be invisible. If you have a message in the "
+"\"Notification Message\" field, it will be displayed."
+msgstr ""
+"Haftanın günleri için iki farklı açılış ve kapanış saati ayarlayabilirsiniz. "
+"Seçilen saatlerin aktif olması için günün yanındaki “onay kutusu” "
+"seçilmelidir. “WooCommerce” mağazası seçilen zamanda online siparişe "
+"açılacaktır. Bu saatler dışında, “sipariş” ve “sipariş tamamlandı” düğmeleri "
+"görünmeyecek. “Bildirim Mesajı” alanında bir mesajınız varsa, "
+"görüntülenecektir."
+
+#: includes/admin/tips.php:82
+msgid "Very important :"
+msgstr "Çok önemli :"
+
+#: includes/admin/tips.php:83
+msgid ""
+" If the daily planner is selected for just one day, the plugin will run all "
+"week.\n"
+"For this reason, please fill in the working hours of the shop weekly."
+msgstr ""
+" Günlük planlayıcı sadece bir gün için seçilirse, eklenti tüm hafta "
+"çalışır.\n"
+"Bu nedenle, lütfen mağazanın çalışma saatlerini haftalık olarak doldurun."
+
+#: includes/class-storeclosing-plugin-config.php:80
+msgid "Store is closed now"
+msgstr "Mağaza şimdi kapalı"
+
+#: includes/storeclosing-data.php:112
+msgid "Can not order the below product(s) until our store opens.[plist]"
+msgstr ""
+"Mağazamız açılıncaya kadar aşağıdaki ürün (ler) sipariş edilemez.[plist]"
+
+#: includes/storeclosing-data.php:130
+msgid "General Message"
+msgstr "Genel Mesaj"
+
+#: includes/storeclosing-data.php:131
+msgid "Good Morning. [gm]"
+msgstr "Günaydın. [gm]"
+
+#: includes/storeclosing-data.php:132
+msgid "Good Afternoon. [gm]"
+msgstr "Tünaydın. [gm]"
+
+#: includes/storeclosing-data.php:133
+msgid "Good Evening. [gm]"
+msgstr "İyi akşamlar. [gm]"
+
+#: includes/storeclosing-data.php:178
+msgid " settings updated"
+msgstr " ayarlar güncellendi"
+
+#: includes/storeclosing-data.php:178
+msgid "Please check your settings"
+msgstr "Lütfen ayarlarınızı kontrol edin"
+
+#: includes/storeclosing-data.php:187
+msgid "Monday"
+msgstr "Pazartesi"
+
+#: includes/storeclosing-data.php:188
+msgid "Tuesday"
+msgstr "Salı"
+
+#: includes/storeclosing-data.php:189
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+#: includes/storeclosing-data.php:190
+msgid "Thursday"
+msgstr "Perşembe"
+
+#: includes/storeclosing-data.php:191
+msgid "Friday"
+msgstr "Cuma"
+
+#: includes/storeclosing-data.php:192
+msgid "Saturday"
+msgstr "Cumartesi"
+
+#: includes/storeclosing-data.php:193
+msgid "Sunday"
+msgstr "Pazar"
+
+#: includes/storeclosing-plugin.php:23
+msgid "Docs"
+msgstr "Dökümanlar"
+
+#: includes/storeclosing-plugin.php:24
+msgid "Support"
+msgstr "Destek"
+
+#: includes/storeclosing-shortcode.php:44
+#: includes/storeclosing-shortcode.php:60
+msgid "Day(s)"
+msgstr "Gün"
+
+#: includes/storeclosing-shortcode.php:83
+#: includes/storeclosing-shortcode.php:85
+msgid "Time"
+msgstr "Zaman"
+
+#: includes/storeclosing-show.php:49
+msgid "Store is Close"
+msgstr "Mağaza Kapalı"
+
+#: includes/storeclosing-show.php:120 includes/storeclosing-show.php:133
+msgid "Upcoming ( Closing )"
+msgstr "Tarih ( Kapanış )"
+
+#: includes/storeclosing-show.php:137 includes/storeclosing-show.php:170
+msgid "No Notification Message"
+msgstr "Bildirim Mesajı yok"
+
+#: includes/storeclosing-show.php:152 includes/storeclosing-show.php:166
+msgid "Upcoming ( Opening )"
+msgstr "Tarih ( Açılış )"
+
+#: includes/storeclosing-show.php:248 includes/storeclosing-show.php:251
+msgid "Daily (First)"
+msgstr "Günlük (Birinci)"
+
+#: includes/storeclosing-show.php:286 includes/storeclosing-show.php:289
+msgid "Daily (Second)"
+msgstr "Günlük (İkinci)"
+
+#: includes/storeclosing-show.php:746
+msgid ""
+"Deleted ! WooCommerce / Store Closing / Upcoming Plan (Date / time is old.)"
+msgstr "Silindi ! WooCommerce / Magaza Kapama / TARİH (Tarih / saat eski.)"
+
+#~ msgid "Message Preview"
+#~ msgstr "Mesaj"
+
+#~ msgid "Good Morning"
+#~ msgstr "Günaydın"
+
+#~ msgid "Good Afternoon"
+#~ msgstr "Tünaydın"
+
+#~ msgid "Good Evening"
+#~ msgstr "İyi akşamlar"
+
+#~ msgid "is deactivated."
+#~ msgstr "devre dışı."
+
+#~ msgid "plugin requires."
+#~ msgstr "eklentisi gerekiyor."
+
+#~ msgid "general notification message."
+#~ msgstr "genel bildirim mesajı."
+
+#~ msgid "Welcome to Store Closing Wordpress Plugin"
+#~ msgstr "Magaza Kapama Wordpress Plugin Sayfasına Hoş Geldiniz"
+
+#~ msgid "Time  Zone"
+#~ msgstr "Saat Dilimi"
+
+#~ msgid "Notification Preview"
+#~ msgstr "Bildirim Görünümü"
+
+#~ msgid "Awesome"
+#~ msgstr "Müthiş"
+
+#~ msgid "plugin is active! Do not worry, it is fully supported."
+#~ msgstr "eklentisi aktif. Endişelenme, tam olarak destekliyor."
+
+#~ msgid "Do not show it again"
+#~ msgstr "Bunu tekrar gösterme"
+
+#~ msgid "UPCOMING DATE"
+#~ msgstr "İLERİ TARİH"
+
+#~ msgid "Widht"
+#~ msgstr "Genişlik"
+
+#~ msgid "Our store serves between [tstamp] hours.<br>[countdown]"
+#~ msgstr ""
+#~ "Mağazamız [tstamp] saatleri arasında hizmet vermektedir. <br>[countdown]"
+
+#~ msgid "Our store will close order on [pcstamp]<br>[countdown]"
+#~ msgstr "Mağazamız [pcstamp] tarihinde siparişe kapanacaktır.<br>[countdown]"
+
+#~ msgid "Our store will be opened to order on [postamp]<br>[countdown]"
+#~ msgstr "Mağazamız [postamp] tarihinde siparişe açılacaktır.<br>[countdown]"
+
+#~ msgid "This option close your store."
+#~ msgstr "Bu seçenek mağazanızı kapatır."
+
+#~ msgid ""
+#~ "Close the Woocommerce online sales store on the days and times you want."
+#~ msgstr ""
+#~ "Woocommerce online satış mağazanızı istediğiniz gün ve saatlerde kapatın."
+
+#~ msgid "Opening Message"
+#~ msgstr "Açılış Mesajınız"
+
+#~ msgid "Blank : Default"
+#~ msgstr "Boş : Varsayılan"
+
+#~ msgid "FUTURE DATE"
+#~ msgstr "İLERİ TARİH"

@@ -1,0 +1,39 @@
+%menu-position {
+	visibility: hidden; 
+    z-index: -1;
+    opacity: 0;
+    top: 110%;
+    left: 0;
+}
+%visible-menu {
+	opacity: 1;
+    z-index: 999;
+    visibility: visible;
+    top: 100%;
+}
+
+%menu-icon {
+	// content: "\f0d8";
+    position: absolute;
+    top: -5px;
+    // font-family: fontAwesome;
+    line-height: 0;
+    font-size: 35px;
+    color: $color_white;
+    left: 3px;
+}
+
+header.rt-site-header {
+    z-index: 9999 !important;
+}
+
+.is-sticky {
+    header.rt-site-header {
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.12);
+    }
+}
+
+@import "first-level",
+		"mega-menu",
+		"second-level-menu";
+

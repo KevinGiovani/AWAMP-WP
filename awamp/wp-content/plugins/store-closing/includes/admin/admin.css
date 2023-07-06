@@ -1,0 +1,526 @@
+#store-closing-container{
+	width:98%;
+}
+#store-closing-container .button-primary {
+    background: #9E6095;
+    border-color: #7e4c77 #6e4368 #5e3959;
+    -webkit-box-shadow: 0 1px 0 #5e3959;
+    box-shadow: 0 1px 0 #5e3959;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #8e5686, 1px 0 1px #8e5686, 0 1px 1px #8e5686, -1px 0 1px #8e5686;
+}
+.store-closing-head{
+    padding: 20px 5px 0px 0px;
+}
+.store-closing-title{
+    font-size: 20px;
+    color: #9E6095;
+    padding-bottom: 10px;
+}
+.store-closing-currenttime a{
+	background-color:#9E6095;
+	color:#FFFFFF;
+	text-decoration:none;
+	width:fit-content;
+	padding:5px;
+	position:absolute;
+	top:20px;
+	right:2%;
+}
+.nav-tab{
+    margin-left: 0;
+    background-color: transparent !important;
+    border:none !important;
+    color:#9E6095;
+}
+
+.nav-tab-active{
+    background-color:white !important;
+    border-radius:3px 3px 0px 0px;
+    color:gray;
+}
+.nav-tab:hover{
+    background-color:#9E6095 !important;
+    color:white;
+}
+.remindme-tab:hover{
+    background-color: #FEC73C !important;
+    color:gray;
+}
+.nav-tab-active:hover{
+    background-color:white !important;
+    color:gray;
+    cursor:default;
+    border:none;
+}
+.store-closing-info {
+    background-color : #a8bece;;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    -webkit-box-shadow: 0 1px 0 #a8bece;
+	box-shadow: 0 1px 0 #a8bece;
+	color:white;
+	font-size:16px;
+	padding:5px;
+	
+}
+.store-closing-error {
+    background-color : #ff0000;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    -webkit-box-shadow: 0 1px 0 #ff0000;
+	box-shadow: 0 1px 0 #ff0000;
+	color:white;
+	font-size:16px;
+	padding:5px;
+	
+}
+.dismiss{
+	padding:15px !important;
+}
+.dismiss p{
+	font-size:16px;
+}
+.dismiss a{
+	text-decoration:none;
+}
+.dismiss .more{
+	background-color:#FCC938 !important;
+	color:white;
+	padding:10px;
+	border:solid 1px #FCC938;
+	border-radius:30px;
+}
+.dismiss .more:hover{
+	color:#000000;
+	background-color:white !important;
+	border:solid 1px #FCC938;
+	padding:10px;
+}
+.dismiss #storeclosing_dismiss{
+	font-size: 12px;
+    text-decoration: none;
+    background-color: #9E6095 !important;
+    color: white;
+    float:right;
+    padding:3px;
+    border-radius:3px;
+}
+.dismiss .dismiss_galery{
+	width:100% !important;
+	text-align:center;
+}
+.dismiss .dismiss_galery img{
+	width:47% !important;
+	padding:1%;
+}
+.storeclosing_currentsitedate{
+	background-color:transparent !important;
+    color: lightgray;
+    cursor:default;
+}
+.storeclosing_currentsitedate:hover{
+    background-color:transparent !important;
+    color:gray;
+    cursor:default;
+}
+.store-closing-boxes{
+	margin-bottom: 0;
+	padding: 5px;
+	margin-top: -1px;
+	background: white;
+	box-sizing: border-box;
+}
+.storeclosing_admintable input, .storeclosing_admintable select, .storeclosing_admintable textarea{
+	width:100%;
+	border-radius:3px;
+}
+.storeclosing_admintable input[type='range']{
+	width:90%;
+}
+.storeclosing_admintable .rangevalue{
+	padding-left:5px;
+	vertical-align: super;
+}
+.disable , .disable input, .disable th, .disable select{
+	color: #a8bece;
+}
+.storeclosing-manuel-checkbox{
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	display: inline-block;
+}
+.storeclosing-manuel-checkbox > input{
+	visibility: hidden;
+}
+.storeclosing-manuel-checkbox > sellectarea{
+	display: inline-block;
+	vertical-align: middle;
+	width:  50px;
+	height: 100px;
+	border-radius: 50%;
+	transition: 0.2s;
+	box-shadow: inset 0 0 0 8px #fff;
+	border: 1px solid gray;
+	background: lightgray;
+}
+.storeclosing-manuel-checkbox > sellectarea {
+	width: 35px;
+	border-radius: 3px;
+	margin-right:10px;
+	margin-bottom:20px;
+}
+.storeclosing-manuel-checkbox > input + sellectarea:after{
+	content: "";
+	display: block;
+	height: 25px;
+	width:  60px;
+	margin-left: -13px;
+	margin-top: 65px;
+	border-radius: inherit;
+	transition: inherit;
+	background: #9E6095;
+}
+.storeclosing-manuel-checkbox > input:checked + sellectarea:after{
+	background:  gray;
+	margin-top: 10px;
+}
+.storeclosing-manuel-checkbox{
+	font-size:large !important;
+	font-weight:bold;
+	border : solid 1px #9E6095;
+	padding:10px;
+	border-radius: 3px;
+	width: 390px;
+	height: 170px;
+}
+.storeclosing_upcoming{
+	/* padding:10px; */
+}
+.storeclosing-checkbox{
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+}
+.storeclosing-checkbox > input{
+	visibility: hidden;
+	display: grid;
+}
+.storeclosing-checkbox > sellectarea{
+	display: inline-block;
+	width:  16px;
+	height: 21px;
+	border-radius: 50%;
+	transition: 0.2s;
+	box-shadow: inset 0 0 0 8px #fff;
+	border: 1px solid gray;
+	background: lightgray;
+	margin-top: -10px;
+}
+.storeclosing-checkbox > sellectarea {
+	width: 30px;
+	border-radius: 3px;
+}
+.storeclosing-checkbox > input + sellectarea:after{
+	content: "";
+	display: block;
+	height: 19px;
+	width:  11px;
+	margin: 1px;
+	border-radius: inherit;
+	transition: inherit;
+	background: gray;
+}
+.storeclosing-checkbox > input:checked + sellectarea:after{
+	margin-left: 18px;
+	background:  #9E6095;
+}
+.storeclosing-form input{
+	margin:1px;
+	width:100%;
+	font-weight:normal;
+	font-size:inherit;
+	height:34px;
+}
+.storeclosing-label{
+	margin:1px;
+	width:100%;
+	font-weight:bold;
+	font-size:inherit;
+	height:34px;
+}
+.daily_table, 
+.upcoming_table, 
+.storeclosing_manuel, 
+.setting_table, 
+.popup_table,
+.exclude_table{
+	width: 100%;
+}
+.upcoming_table{
+	border:solid 2px lightgray;
+	padding: 4px 12px 12px 12px;
+	border-radius:5px;
+	margin-bottom:10px;
+	box-shadow: inset 0px 0px 8px 1px lightgray;
+	width: 100% !important;
+}
+.upcoming_delete{
+	position: relative;
+	float:right;
+    font-size: 20px;
+    cursor: pointer;
+}
+.upcoming_delete:hover{
+	color:#9E6095;
+}
+.daily_table h2, .upcoming_table h2, .setting_table h2, .popup_table h2{
+	color:#9E6095;
+	padding : 5px 0px 0px 0px;
+	margin-bottom:0px;
+}
+#storeclosing_general_message{
+	font-size:large;
+	text-align:center;
+}
+.business_plan{
+	padding:5px;
+	text-align: center;
+	display: inline-table;
+	width: 98%;
+}
+.disable #storeclosing_storeopened, .disable #storeclosing_storeclosed{
+	display:none;
+}
+.upcoming_preview{
+	float:left;
+	margin : 10px 0px;
+	color: white;
+	display: grid;
+	min-width: 170px;
+}
+.upcoming_preview .title{
+	font-size:8px;
+	padding: 5px;
+}
+#storeclosing_daystart{
+	background-color : #bb8fb5;
+	border-radius :  5px 0px 0px 5px; 
+	text-align:left;
+}
+#storeclosing_storeclosed{
+	background-color : gray;
+	border-radius :  0px 5px 5px 0px;
+	text-align:right;
+}
+#storeclosing_storeopened{
+	background-color : darkmagenta;
+	text-align:right;
+}
+.activeplan{
+	font-size:small;
+	padding:7px 0px 0px 7px;
+}
+.active_dot{
+	font-size:8px;
+	margin-right:5px;
+	color:#ABFF00;
+	background-color: #ABFF00;
+	border-radius: 50%;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 0px 3px 1px, inset darkgray 0px -1px 0px, #89FF00 0 2px 12px;
+}
+.activeplan_info{
+	color:darkgray;
+}
+.upcoming_titleinfo{
+	cursor:pointer;
+}
+.titleinfo_arrows{
+	font-weight:bold;
+	color:#9E6095;
+	font-size:16px;
+	float:right;
+}
+.titleinfo_arrows:hover{
+	color:black;
+}
+.show_date{
+	width:80% !important;
+}
+.show_datearea{
+	display:inline-table;
+}
+.show_datearea .dashicons{
+	cursor:pointer;
+}
+.storeclosing_info{
+	font-size:12px;
+}
+.storeclosing_info:hover{
+	font-size:inherit;
+	color:#9E6095;
+}
+#storeclosing_popup_setting{
+	width:100%;
+	height:350px;
+	border:solid 1px #9E6095;
+	position:relative;
+}
+#popup_message{
+	width:100%;
+	position: absolute;
+	bottom: 0;
+}
+.storeclosing_exludepage{
+	border: solid 1px #9E6095;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-table;
+    cursor:pointer;
+}
+.storeclosing_exludepage:hover{
+	background-color: #9E6095;
+	color: #FFFFFF;
+}
+.storeclosing_exludepage_selected{
+	border: solid 1px #9E6095;
+	background-color: #9E6095;
+	color: #FFFFFF;
+    padding: 2px 6px;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-table;
+    cursor:pointer;
+}
+.storeclosing_exludepage_selected:hover{
+	color: #FFFFFF;
+	background-color: #FF0000;
+}
+.exclude_message{
+	background-color:#9E6095;
+	padding: 15px!important;
+    border: none!important;
+    color: #fff!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    text-shadow: none!important;
+    font-size: 18px!important;
+}
+#storeclosing_exclude_setting{
+	text-align:left;
+}
+.storeclosing_show { 
+    background-color: #F00;
+    color: #FFF;
+    width: 90%;
+    height: auto;
+    margin-bottom:10px;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    max-inline-size: -webkit-fill-available;
+}
+#storeclosing_icon{
+	float:left;
+}
+
+/* ColorPicker CSS */
+#storeclosing_colorred, #storeclosing_colorgreen, #storeclosing_colorblue {
+	float: left;
+	clear: left;
+	width: 98%;
+	height:19px;
+	margin: 2px 0px;
+	padding:1px;
+}
+#storeclosing_colorred .ui-slider-range { background: #ef2929; border-radius: 2px;}
+#storeclosing_colorgreen .ui-slider-range { background: #8ae234; border-radius: 2px;}
+#storeclosing_colorblue .ui-slider-range { background: #729fcf; border-radius: 2px;}
+
+.store-closing-boxes .ui-state-default{
+	background:#9E6095 !important;
+	height: 19px;
+	width:  10px;
+	margin-left: -13px;
+	margin-top:4px;
+}
+.store-closing-boxes .ui-widget-content {
+    box-shadow: inset 0 0 0 8px #fff;
+	border: 1px solid gray;
+	background: lightgray;
+	border-radius: 3px;
+}
+.store-closing-boxes #font_size_slider,
+.store-closing-boxes #background_opacity_slider,
+.store-closing-boxes #div_size_slider{
+    width: 94%;
+    padding: 5px;
+}
+.store-closing-boxes #font_size_handler,
+.store-closing-boxes #background_opacity_handler,
+.store-closing-boxes #div_size_handler{
+	font-size:10px;
+    width: 40px;
+    height:18px;
+    text-align: center;
+    margin-left: -42px !important;
+    margin-top:3px;
+    color:white;
+}
+.store-closing-boxes #font_size_handler:hover,
+.store-closing-boxes #background_opacity_handler:hover,
+.store-closing-boxes #div_size_handler:hover{
+    cursor:pointer;
+}
+
+/* End : ColorPicker CSS */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  	
+  	.storeclosing_admintable 
+  	input {
+  		font-size:14px;
+  		height:30px;
+  	}
+  	.storeclosing_admintable 
+  	table {
+  		table-layout:fixed;
+		width: 100%;
+  	}
+  	
+  	.daily_table input[type=checkbox]{
+  		height:16px;
+  	}
+	.storeclosing-manuel-checkbox{
+		width:90%;	
+	}
+	.nav-tab{
+		font-size : 70% !important;
+		padding: 2px;
+  	}
+	
+}
+@media only screen 
+  and (max-device-width: 320px)
+  and (-webkit-min-device-pixel-ratio: 2){
+  	
+  	.nav-tab{
+  		font-size : 60% !important;
+		padding: 1px;
+  	}
+  	.storeclosing_admintable 
+  	input {
+  		padding:3px;
+  	}
+	
+}

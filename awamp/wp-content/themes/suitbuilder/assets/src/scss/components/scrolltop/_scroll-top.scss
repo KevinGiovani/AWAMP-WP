@@ -1,0 +1,27 @@
+.scroll-top {
+    position: fixed;
+    @extend %bg-primary;
+    height: 40px;
+    width: 40px;
+    z-index: 999;
+    color: $color_white;
+    bottom: 30px;
+    display: none;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .3s;
+    opacity: .4;
+    right: 30px;
+    &:hover {
+       @extend %bg-secondary;
+       opacity: 1;
+    }
+    &.scroll-left {
+        left: 30px;
+
+    }
+    &.scroll-right {
+        right: 30px;
+    }
+}

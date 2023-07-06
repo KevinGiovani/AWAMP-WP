@@ -1,0 +1,11 @@
+$article-bg: #f8f9fa;
+$article-border: #f1f1f1;
+$article-gap: 1rem;
+$meta-border: #d4d4d4;
+$meta-font-size: 12px;
+%font-awesome-meta {
+    font-family: 'Font Awesome\ 5 Free';
+    padding-right: 7px;
+    font-size: $meta-font-size;
+    color: #868686;
+}

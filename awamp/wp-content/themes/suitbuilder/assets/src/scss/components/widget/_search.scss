@@ -1,0 +1,22 @@
+.search-form {
+	label {
+		width: calc(100% - 100px);
+		margin: 0;
+	    input.search-field {
+		    width: 100%;
+		    height: $field-height;
+		    border: 1px solid $widget_border-color;
+		    padding: 10px;
+		}
+	}
+
+	input.search-submit {
+	    width: 95px;
+	    height: $field-height;
+	    @extend %bg-primary;
+	    border: 0;
+	    cursor: pointer;
+	    color: $color_white;
+	    vertical-align: top;
+	}
+} 

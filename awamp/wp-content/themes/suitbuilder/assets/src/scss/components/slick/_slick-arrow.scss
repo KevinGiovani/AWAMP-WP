@@ -1,0 +1,69 @@
+%arrow-style {
+    position: absolute;   
+    z-index: 999;
+    cursor: pointer;
+    @extend %bg-primary;
+    color: $color_white;
+    border: 0;
+    padding: 8px;
+    line-height: 0;
+    font-size: 31px;
+    width: 35px;
+    text-align: center;
+    transition: all .3s;
+    visibility: hidden;
+    opacity: 0;
+    &:hover {
+    	background: $color_secondary;
+    }
+    &:focus {
+    	outline: none;
+    }
+
+}
+.rt-prev-arrow {
+    &.arow-lf {
+        left: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        &:hover {
+            width: 55px;
+        }
+    }
+    &.arrow-right {
+        right: 55px;
+        top: 0;
+        font-size: 1rem;
+    }
+    
+	@extend %arrow-style;
+}
+
+.rt-next-arrow {
+    &.arow-lf{
+        right: 0;
+        top: 50%;
+        transform: translate(0, -50%);
+        &:hover {
+            width: 55px;
+        }
+    }
+    &.arrow-right {
+        right: 15px;
+        top: 0;
+        font-size: 1rem;
+    }
+    
+	@extend %arrow-style;
+}
+
+.banner-slider-init {
+    &:hover {
+       .rt-next-arrow,
+       .rt-prev-arrow {
+        opacity: 1;
+        visibility: visible;
+       }
+        
+    }
+}

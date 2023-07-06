@@ -1,0 +1,21 @@
+html {
+    font-size: $root-font-size; 
+}
+
+a{
+    &:hover{
+        text-decoration: none;
+    }
+}
+
+.page {
+    img {
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}

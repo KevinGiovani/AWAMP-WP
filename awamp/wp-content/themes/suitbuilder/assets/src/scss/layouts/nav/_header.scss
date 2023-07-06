@@ -1,0 +1,106 @@
+.sticky-header .suitbuilder-header-wrapper,
+.transparent .suitbuilder-header-wrapper {
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	top: 0;
+}
+
+body.logged-in.admin-bar.sticky-header:not(.boxed-site-layout) .suitbuilder-header-wrapper,
+body.logged-in.admin-bar.transparent:not(.boxed-site-layout) .suitbuilder-header-wrapper {
+	top: 32px;
+}
+
+.transparent .suitbuilder-header-wrapper header.rt-site-header {
+	background-color: #0808085c !important;
+}
+
+.transparent .suitbuilder-header-wrapper section.header-top {
+	background-color: #6b6b6bab;
+}
+
+.nav-up {	
+	-webkit-animation: scale-out-ver-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	animation: scale-out-ver-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	left: 0;
+}
+.nav-down:not(.top-of-the-page) {	
+	position:fixed;
+	top: 0;
+	width: 100%;
+	left: 0;	
+}
+
+.boxed-site-layout .nav-down:not(.top-of-the-page),
+.boxed-site-layout .nav-up {
+   max-width: 1200px; 
+}
+
+.wrapper-top-of-the-page,
+.nav-down:not(.top-of-the-page) {
+	-webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	    animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes scale-in-ver-top {
+	0% {
+	  -webkit-transform: scaleY(0);
+			  transform: scaleY(0);
+	  -webkit-transform-origin: 100% 0%;
+			  transform-origin: 100% 0%;
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scaleY(1);
+			  transform: scaleY(1);
+	  -webkit-transform-origin: 100% 0%;
+			  transform-origin: 100% 0%;
+	  opacity: 1;
+	}
+  }
+  
+  
+
+  @-webkit-keyframes scale-out-ver-top {
+	0% {
+	  -webkit-transform: scaleY(1);
+			  transform: scaleY(1);
+	  -webkit-transform-origin: 100% 0%;
+			  transform-origin: 100% 0%;
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scaleY(0);
+			  transform: scaleY(0);
+	  -webkit-transform-origin: 100% 0%;
+			  transform-origin: 100% 0%;
+	  opacity: 1;
+	}
+  }
+  @keyframes scale-out-ver-top {
+	0% {
+	  -webkit-transform: scaleY(1);
+			  transform: scaleY(1);
+	  -webkit-transform-origin: 100% 0%;
+			  transform-origin: 100% 0%;
+	  opacity: 1;
+	}
+	100% {
+	  -webkit-transform: scaleY(0);
+			  transform: scaleY(0);
+	  -webkit-transform-origin: 100% 0%;
+			  transform-origin: 100% 0%;
+	  opacity: 1;
+	}
+  }
+  
+
+.suitbuilder-header-wrapper.custom-header-width {
+    margin: auto;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 1px 1px #9e9c9c8f;
+}

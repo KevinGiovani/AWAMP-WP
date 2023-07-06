@@ -1,0 +1,18 @@
+@import "banner/master",
+		"blog/master",		
+		"nav/master",
+		"footer/master",
+		"innerBanner/master",
+		"single/master",
+		"sidebar/master",
+		"pageNotFound/master",
+		"commentForm/master";
+
+		.boxed-site-layout {
+			max-width: 1200px;
+			margin: 20px auto;
+			border: 1px solid #e4e3e3;
+			box-shadow: 0 0 6px #d8d8d8;
+			position: relative;
+		}
+

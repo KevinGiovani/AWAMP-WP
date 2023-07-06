@@ -1,0 +1,16 @@
+/* Disable Tags */
+.woocommerce li.product .entry-header .button, 
+.woocommerce-page li.product .entry-header .button, 
+.woocommerce .quantity, 
+.woocommerce-page .quantity, 
+.woocommerce .single_add_to_cart_button, 
+.woocommerce-page .single_add_to_cart_button,
+.woocommerce-page .checkout-button,
+.woocommerce #payment,
+.add_to_cart_button,
+.single_add_to_cart_button,
+#place_order,
+.ajax_add_to_cart
+{ 
+	display: none !important; 
+} 

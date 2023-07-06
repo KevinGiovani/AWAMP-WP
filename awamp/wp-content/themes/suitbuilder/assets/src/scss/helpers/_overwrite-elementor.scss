@@ -1,0 +1,60 @@
+#feature-box {
+    p.elementor-icon-box-description {
+        @include media(mobileUp) {
+            margin-left: -47px;
+            margin-top: 12px;
+        }        
+    }
+    h3.elementor-icon-box-title {
+        padding-top: 7px;
+    }
+}
+#testimonials-custom {    
+    .elementor-testimonial-content {
+        position: relative;
+        padding: 0 8px;
+        &:before,
+        &:after {
+            content: '"';
+           
+        }        
+    }
+}
+#cta-footer {
+    .elementor-widget-wrap {
+        align-items: center !important;
+        align-content: center;
+    }
+}
+#elementor-footer {
+    .elementor-widget-wp-widget-recent-posts {
+        h5 {
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-style: normal;
+            letter-spacing: 1px;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            li {
+                a,
+                span.post-date {
+                    color: #c6c6c6;  
+                    font-size: 14px;
+                    font-weight: 300;
+                    letter-spacing: 1px; 
+                    display: block;
+                }
+                span.post-date {
+                    color: #828080;
+
+                }
+            }
+        }
+    }
+}

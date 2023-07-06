@@ -1,0 +1,44 @@
+#secondary {
+	.widget {
+		padding: $widget-padding;
+		margin-bottom: $widget-gap;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			li {
+				padding-bottom: 3px;
+				border-bottom: 1px solid $widget_border-color;
+				margin-bottom: 7px;
+				position: relative;
+				&::before {
+					content: "\f105";
+					font-family: 'Font Awesome\ 5 Free';
+					font-weight: 700;
+					opacity: .3;
+					padding-right: 4px;
+				}
+				&:last-child {
+					margin: 0;
+					padding: 0;
+					border-bottom: 0;
+				}
+				a {
+					transition: all .3s;
+					text-transform: capitalize;
+					&:hover {
+						@extend %color-primary;
+					}
+				}
+			}
+		}
+	}
+	
+	.widget-title {
+		border-bottom: 1px solid $widget_border-color;
+		position: relative;		
+	}
+}

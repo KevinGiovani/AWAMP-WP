@@ -1,0 +1,122 @@
+.bgc-primary {
+	@extend %bg-primary;
+}
+.clr-primary {
+	@extend %color-primary;
+}
+.clr-secondary {
+	@extend %color-secondary;
+}
+
+.bgc-secondary {
+	@extend %bg-secondary
+}
+
+.bdr-primary {
+	@extend %bdr-primary;
+}
+
+.content-center {
+	@extend %center-content;
+}
+
+.z-index {
+	z-index: 9;
+}
+.py-8 {
+	padding-top: 7.5rem;
+	padding-bottom: 7.5rem;
+}
+.pt-6,
+.py-6{
+	padding-top: 5rem;
+	@include media(mobile) {
+		padding-top: 3.2rem;
+	}
+}
+.pb-6,
+.py-6{
+	padding-bottom: 5rem;
+	@include media(mobile) {
+		padding-bottom: 3.2rem;
+	}
+}
+.pt-7,
+.py-7{
+	padding-top: 6rem;
+	@include media(mobile) {
+		padding-top: 3.2rem;
+	}
+}
+.pb-7,
+.py-7{
+	padding-bottom: 6rem;
+	@include media(mobile) {
+		padding-bottom: 3.2rem;
+	}
+}
+.overflow-hidden {
+	overflow: hidden;
+}
+.clr-mute {
+	color: $color_mute;
+}
+.ls-none {
+	list-style: none;
+}
+
+.box-has-shadow {
+	box-shadow: $box-shadow ;
+}
+
+.fs-24 {
+    font-size: 1.5rem;
+    line-height: normal;
+}
+
+.fs-1 {
+    font-size: 1rem;
+}
+.fs-small{
+	font-size: .85rem;
+}
+.fs-big{
+	font-size: 2rem;
+}
+
+.mh-3 {
+	max-height: 226px;
+	@include media(mobile) {
+		max-height: 326px;
+	}
+}
+
+.has-line-left {
+	position: relative;
+	padding-left: 1rem;
+	&:before {
+	    content: "";
+	    width: 10px;
+	    height: 2px;
+	    @extend %bg-primary;
+	    position: absolute;
+	    left: 0;
+	    top: 50%;
+	}
+}
+
+.lh-18 {
+	line-height: 1.8;
+}
+
+.order-mbl-2 {
+	@include media(mobile) {
+		order: 2;
+	}
+}
+
+.order-mbl-1 {
+	@include media(mobile) {
+		order: 1;
+	}
+}

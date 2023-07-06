@@ -1,0 +1,11 @@
+2021-10-31T02:23:17+00:00 DEBUG Saving StoreApps data. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1931
+2021-10-31T02:23:17+00:00 DEBUG Saved StoreApps data. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1934
+2021-10-31T02:23:21+00:00 DEBUG Saving StoreApps data. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1931
+2021-10-31T02:23:21+00:00 DEBUG Saved StoreApps data. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1934
+2021-10-31T02:36:18+00:00 DEBUG Requesting StoreApps data. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1755
+2021-10-31T02:36:18+00:00 DEBUG Saving StoreApps data. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1931
+2021-10-31T02:36:18+00:00 DEBUG Saved StoreApps data. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1934
+2021-10-31T02:36:19+00:00 DEBUG Received response from http://localhost/awamp/wp-admin/plugins.php. Should contain StoreApps data.C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1785
+2021-10-31T02:36:19+00:00 ERROR Response code, message mismatch. Response code: 401, Response message: Unauthorized. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1807
+2021-10-31T02:36:20+00:00 DEBUG Saving StoreApps data. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1931
+2021-10-31T02:36:20+00:00 DEBUG Saved StoreApps data. C:\xampp\htdocs\awamp\wp-content\plugins\smart-manager-for-wp-e-commerce\pro\sa-includes\class-storeapps-upgrade-3-8.php 1934

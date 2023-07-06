@@ -1,0 +1,95 @@
+%btn-hvr {
+	content: "";
+	width: 0%;
+	position: absolute;
+	top: 0;
+	height: 100%;
+	z-index: -1;
+	transition: all .3s;
+}
+.btn {
+	font-size: $btn-font-size;
+    padding: $btn-padding;
+    transition: all .3s;
+	border-radius: 0;
+	position: relative;
+	z-index: 0;
+	border: 0;
+	font-weight: 600;
+	@include media(mobile) {
+		padding: 14px 15px;
+	}
+	&:hover {
+		&:after,
+		&:before {
+			width: 50%;
+		}
+	}
+
+	&:after {
+		@extend %btn-hvr;
+		left: 0;
+	}
+	&::before {
+		@extend %btn-hvr;
+		right: 0;
+	}    
+    &.bgc-primary {
+    	color: $color_white;
+	}
+	&.bgc-secondary {
+		color: $color_white;
+	}
+    &.bgc-white {
+    	background: $color_white;
+    	&:hover {
+    		color: $color_white;
+    	}
+    }
+	&.btn-has-shadow {
+	    box-shadow: $btn-shadow;
+	    &:hover {
+    		box-shadow: none;
+    	}
+	}
+	&.btn-rounded {
+	    border-radius: $btn-radius;
+	}
+	&.border-none {
+	    border: none;	
+	}
+	&.btn-has-border {
+		border: 1px solid;
+	}
+
+}
+
+.post-navigation {
+    margin: 0;
+    overflow: visible;
+	padding: 26px 0;
+	.nav-links a {
+		@extend %bg-primary;
+		padding: 8px 30px 12px;
+		color: $color_white;
+		transition: all .3s;
+		&:hover {
+			background: $color_secondary;
+		}
+	}
+}
+
+.read-more-text {
+	margin-top: 25px;
+	a {
+		color: #828282;
+		border: 1px solid #c8c8c8;
+		padding: 10px 20px;
+		transition: all .3s;
+		&:hover {
+			@extend %bg-primary;
+			color: $color_white !important;
+		}
+	}
+} 
+

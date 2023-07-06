@@ -1,0 +1,25 @@
+2021-10-16T20:11:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WCPay\MultiCurrency\FrontendCurrencies::__construct(), 2 passed in C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce-payments\includes\multi-currency\MultiCurrency.php on line 242 and exactly 3 expected in C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce-payments\includes\multi-currency\FrontendCurrencies.php:62
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce-payments\includes\multi-currency\MultiCurrency.php(242): WCPay\MultiCurrency\FrontendCurrencies->__construct(Object(WCPay\MultiCurrency\MultiCurrency), Object(WC_Payments_Localization_Service))
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): WCPay\MultiCurrency\MultiCurrency->init('')
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\awamp\wp-settings.php(578): do_action('init')
+#5 C:\xampp\htdocs\awamp\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\awamp\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\awamp\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce-payments\includes\multi-currency\FrontendCurrencies.php en la línea 62
+
+2021-10-16T21:57:18+00:00 CRITICAL Uncaught Error: Call to a member function update_meta() on bool in C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php:285
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php(166): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#7 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\theme-builder\classes\conditions-manager.php en la línea 285
+

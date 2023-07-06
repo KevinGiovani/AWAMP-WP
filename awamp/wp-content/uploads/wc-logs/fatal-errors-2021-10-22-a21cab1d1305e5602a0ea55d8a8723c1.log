@@ -1,0 +1,4 @@
+2021-10-22T05:43:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en /Applications/XAMPP/xamppfiles/htdocs/awamp/wp-content/plugins/woocommerce-payments/includes/multi-currency/Utils.php en la línea 26
+
+2021-10-22T05:43:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded en /Applications/XAMPP/xamppfiles/htdocs/awamp/wp-includes/functions.php en la línea 6774
+

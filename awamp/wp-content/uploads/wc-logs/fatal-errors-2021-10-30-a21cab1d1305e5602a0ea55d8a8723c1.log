@@ -1,0 +1,218 @@
+2021-10-30T02:59:37+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "uninstallUserAccessManager" not found or invalid function name in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\awamp\wp-admin\includes\plugin.php(1272): do_action('uninstall_user-...')
+#3 C:\xampp\htdocs\awamp\wp-admin\includes\plugin.php(965): uninstall_plugin('user-access-man...')
+#4 C:\xampp\htdocs\awamp\wp-admin\includes\ajax-actions.php(4598): delete_plugins(Array)
+#5 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): wp_ajax_delete_plugin('')
+#6 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_delete-...')
+#9 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 303
+
+2021-10-30T03:59:01+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php:58
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Woo_User_redirect::render_loggedin_redirect_field(Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(720): do_action('woocommerce_adm...', Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\wc-admin-functions.php(153): WC_Admin_Settings::output_fields(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php(187): woocommerce_admin_fields(Array)
+#6 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Woo_User_redirect::settings_tab('')
+#7 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(41): do_action('woocommerce_set...')
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(153): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(276): WC_Admin_Settings::output()
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): WC_Admin_Menus->settings_page('')
+#13 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\awamp\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#16 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php en la línea 58
+
+2021-10-30T03:59:09+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php:58
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Woo_User_redirect::render_loggedin_redirect_field(Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(720): do_action('woocommerce_adm...', Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\wc-admin-functions.php(153): WC_Admin_Settings::output_fields(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php(187): woocommerce_admin_fields(Array)
+#6 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Woo_User_redirect::settings_tab('')
+#7 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(41): do_action('woocommerce_set...')
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(153): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(276): WC_Admin_Settings::output()
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): WC_Admin_Menus->settings_page('')
+#13 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\awamp\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#16 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php en la línea 58
+
+2021-10-30T03:59:13+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php:58
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Woo_User_redirect::render_loggedin_redirect_field(Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(720): do_action('woocommerce_adm...', Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\wc-admin-functions.php(153): WC_Admin_Settings::output_fields(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php(187): woocommerce_admin_fields(Array)
+#6 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Woo_User_redirect::settings_tab('')
+#7 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(41): do_action('woocommerce_set...')
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(153): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(276): WC_Admin_Settings::output()
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): WC_Admin_Menus->settings_page('')
+#13 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\awamp\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#16 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php en la línea 58
+
+2021-10-30T03:59:21+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php:58
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Woo_User_redirect::render_loggedin_redirect_field(Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(720): do_action('woocommerce_adm...', Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\wc-admin-functions.php(153): WC_Admin_Settings::output_fields(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php(187): woocommerce_admin_fields(Array)
+#6 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Woo_User_redirect::settings_tab('')
+#7 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\views\html-admin-settings.php(41): do_action('woocommerce_set...')
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(153): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\awamp\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(276): WC_Admin_Settings::output()
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): WC_Admin_Menus->settings_page('')
+#13 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#14 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#15 C:\xampp\htdocs\awamp\wp-admin\admin.php(259): do_action('woocommerce_pag...')
+#16 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-content\plugins\woo-user-redirect\woo-user-redirect.php en la línea 58
+
+2021-10-30T18:34:29+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-30T18:34:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-30T18:34:40+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-30T18:35:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-30T18:36:08+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+
+2021-10-30T18:39:32+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts does not have a method "posts_fields" in C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php:305
+Stack trace:
+#0 C:\xampp\htdocs\awamp\wp-includes\plugin.php(233): WP_Hook->apply_filters('wp_posts.*', Array)
+#1 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(2766): apply_filters_ref_array('posts_fields', Array)
+#2 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#3 C:\xampp\htdocs\awamp\wp-includes\class-wp-query.php(3576): WP_Query->query(Array)
+#4 C:\xampp\htdocs\awamp\wp-content\plugins\elementor-pro\modules\assets-manager\asset-types\fonts\custom-fonts.php(312): WP_Query->__construct(Array)
+#5 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(204): ElementorPro\Modules\AssetsManager\AssetTypes\Fonts\Custom_Fonts->get_fonts()
+#6 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-base.php(253): Jet_Woo_Builder_Document_Base->enqueue_custom_fonts_epro(Object(Elementor\Core\Files\CSS\Post))
+#7 C:\xampp\htdocs\awamp\wp-content\plugins\jet-woo-builder\includes\documents\class-jet-woo-builder-document-archive-product.php(144): Jet_Woo_Builder_Document_Base->save_archive_templates(Array)
+#8 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\documents-manager.php(521): Jet_Woo_Builder_Archive_Document_Product->save(Array)
+#9 [internal function]: Elementor\Core\Documents_Manager->ajax_save(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#10 C:\xampp\htdocs\awamp\wp-content\plugins\elementor\core\common\modules\ajax\module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#11 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#12 C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#13 C:\xampp\htdocs\awamp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#14 C:\xampp\htdocs\awamp\wp-admin\admin-ajax.php(187): do_action('wp_ajax_element...')
+#15 {main}
+  thrown en C:\xampp\htdocs\awamp\wp-includes\class-wp-hook.php en la línea 305
+

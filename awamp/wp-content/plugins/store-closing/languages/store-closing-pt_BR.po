@@ -1,0 +1,623 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Store Closing\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-01 12:16+0300\n"
+"PO-Revision-Date: 2017-12-01 12:16+0300\n"
+"Last-Translator: david cantidio <contato@104.236.122.114>\n"
+"Language-Team: David Cantidio\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: storeclosing-class.php:39 storeclosing-rolesetting.php:40
+#: storeclosing-setting.php:44
+msgid "Manual"
+msgstr ""
+
+#: storeclosing-class.php:112 storeclosing-class.php:114
+msgid "Upcoming ( Closing )"
+msgstr ""
+
+#: storeclosing-class.php:114 storeclosing-class.php:123
+#: storeclosing-rolesetting.php:440 storeclosing-setting.php:451
+msgid "Warning"
+msgstr "Alerta"
+
+#: storeclosing-class.php:114 storeclosing-class.php:123
+#, fuzzy
+#| msgid "Notification Message"
+msgid "No Notification Message"
+msgstr "Mensagem de Notificação"
+
+#: storeclosing-class.php:121 storeclosing-class.php:123
+msgid "Upcoming ( Opening )"
+msgstr ""
+
+#: storeclosing-class.php:192
+msgid "Daily (First)"
+msgstr ""
+
+#: storeclosing-class.php:212
+msgid "Daily (Second)"
+msgstr ""
+
+#: storeclosing-class.php:229 storeclosing-rolesetting.php:38
+#: storeclosing-setting.php:42
+msgid "Daily"
+msgstr "Diariamente"
+
+#: storeclosing-class.php:406 storeclosing.php:220 storeclosing.php:238
+msgid "Day(s)"
+msgstr "Dia(s)"
+
+#: storeclosing-class.php:431
+#, fuzzy
+#| msgid "Closing"
+msgid "Close"
+msgstr "Fechamos"
+
+#: storeclosing-class.php:511
+#, fuzzy
+#| msgid ""
+#| "Flag Off ! WooCommerce / Store Closing / FUTURE DATE (Date / time is "
+#| "old.) "
+msgid ""
+"Deleted ! WooCommerce / Store Closing / Upcoming Plan (Date / time is old.)"
+msgstr ""
+"Flag OFF ! WooCommerce / Store Closing / DATA FUTURA  (Data/ horário estão "
+"velhos) "
+
+#: storeclosing-rolesetting.php:6 storeclosing-setting.php:6
+msgid "Welcome to Store Closing Wordpress Plugin"
+msgstr "Bem-vinda (o) ao Store Closing Wordpress Plugin"
+
+#: storeclosing-rolesetting.php:17 storeclosing-setting.php:18
+#: storeclosing.php:194
+msgid "Monday"
+msgstr "Segunda-feira"
+
+#: storeclosing-rolesetting.php:17 storeclosing-setting.php:18
+#: storeclosing.php:194
+msgid "Tuesday"
+msgstr "Terça-feira"
+
+#: storeclosing-rolesetting.php:17 storeclosing-setting.php:18
+#: storeclosing.php:194
+msgid "Wednesday"
+msgstr "Quarta-feira"
+
+#: storeclosing-rolesetting.php:17 storeclosing-setting.php:18
+#: storeclosing.php:194
+msgid "Thursday"
+msgstr "Quinta-feira"
+
+#: storeclosing-rolesetting.php:17 storeclosing-setting.php:18
+#: storeclosing.php:194
+msgid "Friday"
+msgstr "Sexta-feira"
+
+#: storeclosing-rolesetting.php:17 storeclosing-setting.php:18
+#: storeclosing.php:194
+msgid "Saturday"
+msgstr "Sábado"
+
+#: storeclosing-rolesetting.php:17 storeclosing-setting.php:18
+#: storeclosing.php:194
+msgid "Sunday"
+msgstr "Domingo"
+
+#: storeclosing-rolesetting.php:32 storeclosing-setting.php:36
+#: storeclosing.php:36 storeclosing.php:82 storeclosing.php:105
+msgid "Store Closing"
+msgstr "Store Closing"
+
+#: storeclosing-rolesetting.php:34 storeclosing-setting.php:38
+#: storeclosing.php:110
+#, fuzzy
+#| msgid "Active Hours"
+msgid "Active"
+msgstr "Horas ativas"
+
+#: storeclosing-rolesetting.php:39 storeclosing-setting.php:43
+msgid "Upcoming"
+msgstr "A seguir"
+
+#: storeclosing-rolesetting.php:50 storeclosing-setting.php:61
+msgid "First"
+msgstr ""
+
+#: storeclosing-rolesetting.php:55 storeclosing-rolesetting.php:112
+#: storeclosing-rolesetting.php:269 storeclosing-setting.php:66
+#: storeclosing-setting.php:123 storeclosing-setting.php:280
+#: storeclosing.php:257 storeclosing.php:307 storeclosing.php:311
+#: storeclosing.php:348 storeclosing.php:383
+msgid "Opening"
+msgstr "Abrimos"
+
+#: storeclosing-rolesetting.php:57 storeclosing-rolesetting.php:114
+#: storeclosing-rolesetting.php:221 storeclosing-setting.php:68
+#: storeclosing-setting.php:125 storeclosing-setting.php:232
+#: storeclosing.php:256 storeclosing.php:305 storeclosing.php:309
+#: storeclosing.php:346 storeclosing.php:381
+msgid "Closing"
+msgstr "Fechamos"
+
+#: storeclosing-rolesetting.php:60 storeclosing-rolesetting.php:96
+#: storeclosing-rolesetting.php:117 storeclosing-rolesetting.php:152
+#: storeclosing-setting.php:71 storeclosing-setting.php:107
+#: storeclosing-setting.php:128 storeclosing-setting.php:163
+#: storeclosing-setting.php:633
+msgid "Message"
+msgstr ""
+
+#: storeclosing-rolesetting.php:107 storeclosing-setting.php:118
+msgid "Second"
+msgstr ""
+
+#: storeclosing-rolesetting.php:162 storeclosing-setting.php:173
+msgid "General Notification Message"
+msgstr "Mensagem geral de notificação"
+
+#: storeclosing-rolesetting.php:165 storeclosing-setting.php:176
+msgid "Active Hours"
+msgstr "Horas ativas"
+
+#: storeclosing-rolesetting.php:165 storeclosing-setting.php:176
+#: storeclosing-setting.php:637
+msgid "Blank"
+msgstr "Vazio"
+
+#: storeclosing-rolesetting.php:165 storeclosing-setting.php:176
+#: storeclosing-setting.php:637
+msgid "Invisible"
+msgstr "Invisível"
+
+#: storeclosing-rolesetting.php:165 storeclosing-rolesetting.php:320
+#: storeclosing-setting.php:176 storeclosing-setting.php:331
+msgid "Countdown"
+msgstr "Contagem-regressiva"
+
+#: storeclosing-rolesetting.php:212 storeclosing-setting.php:223
+#, fuzzy
+#| msgid "Upcoming"
+msgid "New Upcoming Plan"
+msgstr "A seguir"
+
+#: storeclosing-rolesetting.php:225 storeclosing-rolesetting.php:273
+#: storeclosing-setting.php:236 storeclosing-setting.php:284
+#: storeclosing.php:260 storeclosing.php:262
+msgid "Date"
+msgstr "Data"
+
+#: storeclosing-rolesetting.php:227 storeclosing-rolesetting.php:275
+#: storeclosing-setting.php:238 storeclosing-setting.php:286
+msgid "Hour"
+msgstr "Hora"
+
+#: storeclosing-rolesetting.php:229 storeclosing-rolesetting.php:277
+#: storeclosing-setting.php:240 storeclosing-setting.php:288
+msgid "Minute"
+msgstr "Minuto"
+
+#: storeclosing-rolesetting.php:232 storeclosing-rolesetting.php:280
+#: storeclosing-setting.php:243 storeclosing-setting.php:291
+msgid "Notification Message"
+msgstr "Mensagem de Notificação"
+
+#: storeclosing-rolesetting.php:234 storeclosing-setting.php:245
+msgid ""
+"When you want to close your store for a future date, you can give an earlier "
+"info for your customers. Select the day you want this message appear."
+msgstr ""
+
+#: storeclosing-rolesetting.php:234 storeclosing-setting.php:245
+msgid "Show Message"
+msgstr ""
+
+#: storeclosing-rolesetting.php:250 storeclosing-rolesetting.php:261
+#: storeclosing-setting.php:261 storeclosing-setting.php:272
+msgid "Daily Message to be displayed when this message is active ?"
+msgstr ""
+
+#: storeclosing-rolesetting.php:300 storeclosing-setting.php:311
+msgid "Business Plan"
+msgstr ""
+
+#: storeclosing-rolesetting.php:308 storeclosing-setting.php:319
+msgid "Open until"
+msgstr ""
+
+#: storeclosing-rolesetting.php:309 storeclosing-setting.php:320
+msgid "Close until"
+msgstr ""
+
+#: storeclosing-rolesetting.php:320 storeclosing-setting.php:331
+msgid "Closing Time"
+msgstr "Horário de fechamento"
+
+#: storeclosing-rolesetting.php:320 storeclosing-setting.php:331
+msgid "Opening Time"
+msgstr "Horário de Abertura"
+
+#: storeclosing-rolesetting.php:332 storeclosing-setting.php:343
+msgid "This option close your store and shows general notification message."
+msgstr ""
+
+#: storeclosing-rolesetting.php:332 storeclosing-setting.php:343
+msgid "Without timestamp and countdown"
+msgstr ""
+
+#: storeclosing-rolesetting.php:333 storeclosing-setting.php:344
+msgid "Click for general message"
+msgstr ""
+
+#: storeclosing-rolesetting.php:341
+msgid "STORE is CLOSE"
+msgstr ""
+
+#: storeclosing-rolesetting.php:341 storeclosing-setting.php:352
+msgid "STORE is OPEN"
+msgstr ""
+
+#: storeclosing-rolesetting.php:355 storeclosing-setting.php:366
+msgid "Time  Zone"
+msgstr "Fuso-horário"
+
+#: storeclosing-rolesetting.php:356 storeclosing-setting.php:45
+#: storeclosing-setting.php:367 storeclosing.php:42 storeclosing.php:112
+msgid "Settings"
+msgstr "Configurações"
+
+#: storeclosing-rolesetting.php:358 storeclosing-setting.php:369
+msgid "Notification Preview"
+msgstr "Previsão da Notificação"
+
+#: storeclosing-rolesetting.php:369 storeclosing-setting.php:380
+#: storeclosing-setting.php:521 storeclosing.php:111
+msgid "Store is currently open"
+msgstr ""
+
+#: storeclosing-rolesetting.php:376 storeclosing-setting.php:387
+msgid "Notification Settings"
+msgstr "Configurações de Notificação"
+
+#: storeclosing-rolesetting.php:379 storeclosing-setting.php:390
+msgid "Default CSS"
+msgstr "CSS Default"
+
+#: storeclosing-rolesetting.php:380 storeclosing-setting.php:391
+msgid "Custom"
+msgstr "Customizado"
+
+#: storeclosing-rolesetting.php:385 storeclosing-setting.php:396
+msgid "Background color"
+msgstr "Cor de fundo"
+
+#: storeclosing-rolesetting.php:389 storeclosing-setting.php:400
+msgid "Text color"
+msgstr "Cor do texto"
+
+#: storeclosing-rolesetting.php:393 storeclosing-setting.php:404
+msgid "Width"
+msgstr ""
+
+#: storeclosing-rolesetting.php:397 storeclosing-setting.php:408
+msgid "Padding"
+msgstr "Preenchimento"
+
+#: storeclosing-rolesetting.php:401 storeclosing-setting.php:412
+msgid "Font Size"
+msgstr "Tamanho da fonte"
+
+#: storeclosing-rolesetting.php:405 storeclosing-setting.php:416
+msgid "Text Align"
+msgstr "Alinhamento de Texto"
+
+#: storeclosing-rolesetting.php:409 storeclosing-setting.php:420
+msgid "Border Style"
+msgstr "Estilo da borda"
+
+#: storeclosing-rolesetting.php:412 storeclosing-rolesetting.php:438
+#: storeclosing-setting.php:423 storeclosing-setting.php:449
+msgid "None"
+msgstr "Nenhum"
+
+#: storeclosing-rolesetting.php:413 storeclosing-setting.php:424
+msgid "Solid"
+msgstr "Sólido"
+
+#: storeclosing-rolesetting.php:414 storeclosing-setting.php:425
+msgid "Dashed"
+msgstr "Traçado"
+
+#: storeclosing-rolesetting.php:415 storeclosing-setting.php:426
+msgid "Dotted"
+msgstr "Pontilhado"
+
+#: storeclosing-rolesetting.php:419 storeclosing-setting.php:430
+msgid "Border Width"
+msgstr "Comprimento da borda"
+
+#: storeclosing-rolesetting.php:423 storeclosing-setting.php:434
+msgid "Border color"
+msgstr "Cor da borda"
+
+#: storeclosing-rolesetting.php:427 storeclosing-setting.php:438
+msgid "Border Radius"
+msgstr "Ângulação da borda"
+
+#: storeclosing-rolesetting.php:431 storeclosing-setting.php:442
+msgid "Margin"
+msgstr "Margem"
+
+#: storeclosing-rolesetting.php:435 storeclosing-setting.php:446
+msgid "Icon"
+msgstr "Ícone"
+
+#: storeclosing-rolesetting.php:439 storeclosing-setting.php:450
+msgid "Info"
+msgstr "Informações"
+
+#: storeclosing-rolesetting.php:441 storeclosing-setting.php:452
+msgid "Clock"
+msgstr "Relógio"
+
+#: storeclosing-rolesetting.php:442 storeclosing-setting.php:453
+msgid "Key"
+msgstr "Chave"
+
+#: storeclosing-rolesetting.php:443 storeclosing-setting.php:454
+msgid "Speech"
+msgstr "Fala"
+
+#: storeclosing-rolesetting.php:444 storeclosing-setting.php:455
+msgid "Lock"
+msgstr "Travar"
+
+#: storeclosing-rolesetting.php:445 storeclosing-setting.php:456
+msgid "Unlock"
+msgstr "Destravar"
+
+#: storeclosing-rolesetting.php:446 storeclosing-setting.php:457
+msgid "Megaphone"
+msgstr "Megafone"
+
+#: storeclosing-rolesetting.php:447 storeclosing-setting.php:458
+msgid "Cart"
+msgstr "Carrinho"
+
+#: storeclosing-rolesetting.php:452 storeclosing-setting.php:477
+msgid "Role Permision"
+msgstr ""
+
+#: storeclosing-rolesetting.php:456 storeclosing-setting.php:481
+msgid "Select Role"
+msgstr ""
+
+#: storeclosing-rolesetting.php:475 storeclosing-setting.php:665
+msgid "More details and documentation page"
+msgstr "Mais detalhes e página de documentação"
+
+#: storeclosing-rolesetting.php:479
+msgid "Awesome"
+msgstr "Impressionante"
+
+#: storeclosing-rolesetting.php:479
+msgid "plugin is active! Do not worry, it is fully supported."
+msgstr "plugin está ativo! Não se preocupe, ele é totalmente suportado."
+
+#: storeclosing-setting.php:46
+msgid "Popup"
+msgstr ""
+
+#: storeclosing-setting.php:47
+msgid "Exclude"
+msgstr ""
+
+#: storeclosing-setting.php:49
+msgid "RemindMe"
+msgstr ""
+
+#: storeclosing-setting.php:464
+msgid "Product Page Notification"
+msgstr ""
+
+#: storeclosing-setting.php:468
+#, fuzzy
+#| msgid "Notification Message"
+msgid "Shop Page Notification"
+msgstr "Mensagem de Notificação"
+
+#: storeclosing-setting.php:472
+#, fuzzy
+#| msgid "General Notification Message"
+msgid "Payment Page Notification"
+msgstr "Mensagem geral de notificação"
+
+#: storeclosing-setting.php:503
+msgid "Popup Preview"
+msgstr ""
+
+#: storeclosing-setting.php:507
+msgid "Show in Area"
+msgstr ""
+
+#: storeclosing-setting.php:510
+msgid "Top"
+msgstr ""
+
+#: storeclosing-setting.php:511
+msgid "Bottom"
+msgstr ""
+
+#: storeclosing-setting.php:530 storeclosing-setting.php:621
+msgid "Css Class"
+msgstr ""
+
+#: storeclosing-setting.php:534
+msgid "Close Button"
+msgstr ""
+
+#: storeclosing-setting.php:537
+msgid "Yes"
+msgstr ""
+
+#: storeclosing-setting.php:538
+#, fuzzy
+#| msgid "None"
+msgid "No"
+msgstr "Nenhum"
+
+#: storeclosing-setting.php:543
+#, fuzzy
+#| msgid "Closing Time"
+msgid "Closing Time (sec)"
+msgstr "Horário de fechamento"
+
+#: storeclosing-setting.php:547 storeclosing-setting.php:625
+#, fuzzy
+#| msgid "Background color"
+msgid "Background Color"
+msgstr "Cor de fundo"
+
+#: storeclosing-setting.php:551 storeclosing-setting.php:629
+msgid "Transparent (%)"
+msgstr ""
+
+#: storeclosing-setting.php:555
+msgid "Cookie Expires"
+msgstr ""
+
+#: storeclosing-setting.php:559
+msgid "Days"
+msgstr ""
+
+#: storeclosing-setting.php:563
+#, fuzzy
+#| msgid "Hour"
+msgid "Hours"
+msgstr "Hora"
+
+#: storeclosing-setting.php:567
+#, fuzzy
+#| msgid "Minute"
+msgid "Minutes"
+msgstr "Minuto"
+
+#: storeclosing-setting.php:571
+msgid "Seconds"
+msgstr ""
+
+#: storeclosing-setting.php:588
+msgid "Message Preview"
+msgstr ""
+
+#: storeclosing-setting.php:592
+msgid "Exclude Category"
+msgstr ""
+
+#: storeclosing-setting.php:595
+msgid "Select Category"
+msgstr ""
+
+#: storeclosing-setting.php:612
+msgid "Product Name"
+msgstr ""
+
+#: storeclosing-setting.php:637
+msgid "Unauthorized Product(s) List"
+msgstr ""
+
+#: storeclosing-setting.php:645
+#, fuzzy
+#| msgid "Closing"
+msgid "Close this"
+msgstr "Fechamos"
+
+#: storeclosing-setting.php:647
+#, fuzzy
+#| msgid "WooCommerce Store Closing."
+msgid "WooCommerce Remind Me"
+msgstr "Fechameno de loja Woocommerce"
+
+#: storeclosing-setting.php:648
+msgid "This plugin"
+msgstr ""
+
+#: storeclosing-setting.php:648
+msgid ""
+"Places a great-looking animated bell icon under the WSC (WooCommerce Store "
+"Closing) notifications. Your customers can type in email addresses and add a "
+"reminder. Automatically sends e-mail when the store is open."
+msgstr ""
+
+#: storeclosing-setting.php:649
+msgid "More Details"
+msgstr ""
+
+#: storeclosing.php:51
+msgid "Docs"
+msgstr "Docs"
+
+#: storeclosing.php:52
+msgid "Support"
+msgstr "Suporte Técnico"
+
+#: storeclosing.php:155
+#, fuzzy
+#| msgid "General Notification Message"
+msgid "General Message"
+msgstr "Mensagem geral de notificação"
+
+#: storeclosing.php:167
+msgid "Can not order the below product(s) until our store opens.[plist]"
+msgstr ""
+
+#: storeclosing.php:261 storeclosing.php:263
+msgid "Time"
+msgstr ""
+
+#: storeclosing.php:424
+msgid "is deactivated."
+msgstr "está desativado"
+
+#: storeclosing.php:424
+msgid "plugin requires."
+msgstr "plugin requer"
+
+#~ msgid "Daily Notification Message"
+#~ msgstr "Mensagem de notificação diária"
+
+#~ msgid "UPCOMING DATE"
+#~ msgstr "DATA A SEGUIR"
+
+#~ msgid "Widht"
+#~ msgstr "Comprimento"
+
+#~ msgid "Our store serves between [tstamp] hours.<br>[countdown]"
+#~ msgstr "Funcioamos entre [tstamp].<br> [countdown]"
+
+#~ msgid "Our store will close order on [pcstamp]<br>[countdown]"
+#~ msgstr "Fecharemos ás [pcstamp].<br> [countdown]"
+
+#~ msgid "Our store will be opened to order on [postamp]<br>[countdown]"
+#~ msgstr "Abriremos para pedidos em [postamp]<br>[countdown]"
+
+#~ msgid "http://dev.4gendesign.com/magaza-kapama"
+#~ msgstr "http://dev.4gendesign.com/magaza-kapama"
+
+#~ msgid "Ozibal"
+#~ msgstr "Ozibal"
+
+#~ msgid "http://dev.4gendesign.com"
+#~ msgstr "http://dev.4gendesign.com"

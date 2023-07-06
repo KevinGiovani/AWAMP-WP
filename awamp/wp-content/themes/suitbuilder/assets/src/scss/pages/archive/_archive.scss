@@ -1,0 +1,62 @@
+article.post,
+.search article {
+    margin-bottom: $article-gap;    
+    .wrapper-grid {
+        border: 1px solid $article-border;
+        padding: $article-gap;
+    }    
+    .entry-content {
+        margin: 0;
+        h2 {
+            line-height: 1.5;
+            margin-bottom: 8px;
+            transition: all .3s;
+            a {
+                &:hover {
+                    @extend %color-primary;
+                }  
+            }
+                      
+        }
+        
+    }
+}
+
+.entry-meta {
+    border-bottom: 1px solid $meta-border;
+    border-top: 1px solid $meta-border;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    margin-top: 10px;
+    a {
+        text-transform: capitalize;
+        font-size: $meta-font-size;
+    }
+    .posted-on {
+        &:before {
+            content: "\f133";
+            @extend %font-awesome-meta;
+        }
+    }
+    span.byline {
+        padding-left: 15px;
+        &:before {
+            content: "\f007";
+            @extend %font-awesome-meta;
+        }
+    }
+}
+
+.entry-content-stat {
+    margin-top: $article-gap;
+}
+
+div#infinite-footer {
+    background: $color_white;
+    border-top: 1px solid #b1b1b1;
+    box-shadow: -2px -2px 1px #00000005;
+}
+
+.page .entry-content > p {
+    margin-top: 15px;
+}

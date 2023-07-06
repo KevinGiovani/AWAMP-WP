@@ -1,0 +1,45 @@
+.#{$prefixMenu}-title {
+	padding: 15px;
+	h1,
+	h2 {
+		margin: 0;	
+		align-items: center;
+    	display: flex;	
+	    a {
+			vertical-align: middle;
+	    	&:hover {
+	    		@extend %color-primary;
+	    		text-decoration: none;
+	    	}
+	    }
+	}
+}
+.site-title {
+	display: flex;
+    align-items: center;
+}
+
+#give-recurring-form,
+form.give-form, 
+form[id*=give-form] {   
+	margin-bottom: 0 !important;
+	button.give-btn.give-btn-modal {
+		width: 100%;
+		border: 0;
+		color: #fff;
+		line-height: 1;
+		padding: 14px;
+		font-size: 14px;
+		font-weight: 500;
+		text-transform: uppercase;
+		font-family: "Roboto", Sans-serif;
+	}
+}
+
+div#donate-btn-elementor button,
+#donate-btn-elementor-cta button {
+    max-width: 170px;
+}
+#donate-btn-elementor-cta form {
+	text-align: right;
+}

@@ -1,0 +1,45 @@
+.banner-section{
+	.slick-dots{
+		@include media(mobile){
+			bottom: 0;
+		}
+		li{
+			@include media(mobile){
+			}
+			button{
+				@include media(mobile){
+					height: 5px;
+					width: 5px;
+				}
+			}
+		}
+	}
+}
+.banner-has-bg{
+	// height: $banner-height !important;
+ 	background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;	
+	// @include media(mobile) {
+	// 	height: calc(75vh - 0px) ;
+	// }
+	&.banner-has-overlay {
+		&:after {
+			@extend %banner-overlay;
+		}
+		&.no-img {
+			&:after {
+				opacity: 1 !important;
+			}
+		}
+	}	
+	.btn{
+		padding-left: 40px;
+		padding-right: 40px;
+		@include media(mobile){
+			padding: 11px 13px;
+			font-size: .8rem;
+		}
+	}	
+}
+

@@ -1,0 +1,126 @@
+=== Store Closing ===
+Plugin Name: Store Closing
+Plugin URI: http://www.woocommercestoreclosing.com
+Description: Woocommerce Store Closing.
+Version: 9.6.4
+Author: Ozibal
+Author URI: https://codecanyon.net/user/ozibal
+Text Domain: store-closing
+Domain Path: /languages
+WC requires at least: 3.0.0
+WC tested up to: 3.5.7
+
+== Changelog ==
+
+= 9.6.4 =
+* New : Select hook for notification
+	+ Notification tab -> Product Page Notification ...
+* New : Show notification message on the cart page
+	+ Notification tab -> Cart Page Notification
+* New : Time limitation for exclude
+	+ Exclude tab -> You can set start and end times for exclude process.
+* Update : Moved the selections of notifications on the Settings tab to Notification tab.
+	+ Notification tab -> Product Page Notification ...
+* New : Shows the "add to cart" button when the countdown time runs out. 
+	
+= 9.6.3 =
+* New : Checks selected category with together it's parent category.
+	+ Exclude tab -> Exclude Category 
+
+= 9.6.2 =
+* New : Delete Cookie
+	+ Popup tab -> Cookie Expires : Active / Pasive
+* Update : Removed "Check if WooCommerce is active"
+	
+= 9.6.1 =
+* Fix : General Notification
+	+ Fix notification message : Deleted text 'Store is Close' (when set manual) 
+* New : Tested up to : 
+	+ Wordpress 5.0.x 
+	+ WooCommerce 3.5.x
+
+= 9.6.0 =
+* New : Notification tab
+	+ Dayparts Notification Message (Morning, Noon, Afternoon)
+* New : Clear All Data
+	+ Settings tab -> Clear all data button
+* New : Exclude page for popup
+	+ Popup tab -> Exclude Page 
+
+= 9.5.9 =
+* New : Backup All Settings
+* Fix : General message link on the manual tab
+
+= 9.5.8 =
+* New : Improved performance
+* Fix : Jquery activaiton issue
+* Fix : Active Plan Date Format (WP Default)
+
+= 9.5.7 =
+* Fix : Blank setting page issue
+* Fix : Image display issue (Https)
+
+= 9.5.6 =
+* New : Dashboard Info
+* New : WooCommerce RemindMe Relation
+
+= 9.5.5 =
+* New : Exclude Category
+
+= 9.5.4 =
+* New : Popup Notification
+
+= 9.5.3 =
+* New : WooCommerce compatibility 3.x
+* Development - Affected classes
+* Fix - ShortCode issues
+
+= 9.5.2 =
+* New - Theme
+* New - Multiple 'Upcoming' settings
+
+= 9.5.1 =
+* New - Activated on Shop Page
+* Fix - CountDown issues : (JS Local Time)
+
+= 9.5.0 =
+* New - Admin Panel
+* Fix - 00:00 time issues
+
+= 9.4.0 =
+* New - Manuel Store Closing
+* Fix - Timezone issues
+* Fix - CountDown issues
+* Fix - Notification issues
+
+= 9.3.3 =
+* Fix - CountDown Language issues
+
+= 9.3.2 =
+* New - New Role Permision
+* New - New language : Brazilian Portuguese
+
+= 9.3.1 =
+* Fix - Default database issues
+* Fix - Empty Notification issues
+
+= 9.3.0 =
+* New - Countdown : Smart Tag [countdown]
+* New - Daily dual opening closing.
+* New - ShortCode : [StoreClosing Daily], [StoreClosing DailyFirst], [StoreClosing DailySecond]
+* Fix - Text Domain issues
+
+= 9.2.0 =
+* New - ShortCode
+
+= 9.1.1 =
+* Fix - Text Domain issue
+* Fix - Notification custom css issue
+
+= 9.1.0 =
+* New - Admin Panel
+* New - Daily Notification Message
+* New - Custom Notification Message
+
+= 9.0.0 =
+* Initial Release

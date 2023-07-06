@@ -1,0 +1,58 @@
+#breadcrumb {
+	padding: 10px 0;
+    ul.trail-items {
+	    padding: 0;
+	    margin: 0;
+	    list-style: none;
+	    li {
+	    	display: inline-block;
+		    padding-right: 3px;
+			font-size: 0.85rem;
+			a {
+				padding-right: 5px;
+				color: #000;
+				span {
+					color: #797979;
+				}
+			}
+		    &:after {
+		    	content: "\f105";
+		  		font-family: 'Font Awesome\ 5 Free';
+				font-weight: 900;
+				color: #797979;
+		    }
+		    &.trail-end {
+			    opacity: 0.8;
+			    &:after {
+			    	content: '';
+			    }
+			}
+	    }
+	}
+}
+
+.breadcrumb-right #breadcrumb ul.trail-items {   
+    text-align: right;
+}
+.breadcrumb-left #breadcrumb ul.trail-items {   
+    text-align: left;
+}
+
+.breadcrumb-center #breadcrumb ul.trail-items {   
+    text-align: center;
+}
+
+nav.navigation.pagination {
+	.nav-links {
+		text-align: center;
+		display: block;
+		width: 100%;
+		margin-top: 14px;
+		a,
+		span {
+			color: #000;
+			font-size: 18px;
+			padding: 8px;
+		}
+	}
+}

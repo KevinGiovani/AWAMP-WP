@@ -1,0 +1,43 @@
+.#{$prefixMenu}-main-menu {
+	height: 100%;
+	> ul {
+	    height: 100%;
+	    display: flex;
+	    align-items: center;
+	    margin: 0;
+        padding: 0;
+        float: right;
+		> li {
+		    display: inline-block;
+    		padding: 29px 10px;
+    		transition: all .3s;
+    		&:hover {
+    			background: #cec7c71c;
+    		}
+            &.menu-item-has-children {
+                > a {
+                   &:after {
+                        content: '\f107';
+						font-family: 'Font Awesome\ 5 Free';
+						padding-left: 10px;
+						font-weight: 600;
+                    }     
+                }      
+                &:hover {
+                    > a {
+                        &:after {
+                        //    content: '\f106';
+                        }    
+                    }                  
+                }        
+            }
+    		a {   			
+				padding: 10px;
+    			&:hover {
+    				text-decoration: none;
+    			}
+    		}            
+		}
+	} 
+} 
+

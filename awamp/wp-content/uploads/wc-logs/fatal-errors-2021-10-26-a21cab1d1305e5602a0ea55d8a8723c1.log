@@ -1,0 +1,7 @@
+2021-10-26T05:47:19+00:00 CRITICAL Uncaught RuntimeException: Error al guardar la acción: Error al guardar la acción: Error de la base de datos. in /Applications/XAMPP/xamppfiles/htdocs/awamp/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/awamp/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php(242): ActionScheduler_DBStoreMigrator->save_action(Object(ActionScheduler_Action), NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/awamp/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(177): ActionScheduler_HybridStore->save_action(Object(ActionScheduler_Action))
+#2 /Applications/XAMPP/xamppfiles/htdocs/awamp/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ActionFactory.php(84): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#3 /Applications/XAMPP/xamppfiles/htdocs/awamp/w en /Applications/XAMPP/xamppfiles/htdocs/awamp/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php en la línea 44
+

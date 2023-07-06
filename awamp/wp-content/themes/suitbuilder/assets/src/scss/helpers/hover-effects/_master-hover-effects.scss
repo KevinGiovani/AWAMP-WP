@@ -1,0 +1,30 @@
+.img-has-effect {
+	position: relative;
+	&:after {
+		content: '';
+	    position: absolute;
+	    left: 0;
+	    height: 100%;
+	    width: 100%;
+	    visibility: hidden;
+	    opacity: 0;
+	    z-index: 1;
+	    top: 0;
+	    background: $color_primary;	    
+	    transition: all 0.5s ease;
+	    -moz-transform: scale(0);
+	    -ms-transform: scale(0);
+	    -webkit-transform: scale(0);
+	    transform: scale(0);
+		}
+	&:hover {
+		&:after {
+		    visibility: visible;
+		    opacity: 0.5;
+		    -moz-transform: scale(1);
+		    -ms-transform: scale(1);
+		    -webkit-transform: scale(1);
+		    transform: scale(1);
+		}
+	}
+}

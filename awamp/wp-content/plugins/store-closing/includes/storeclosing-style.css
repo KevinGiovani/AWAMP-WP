@@ -1,0 +1,184 @@
+/* Default Message */
+.storeclosing_show { 
+    background-color: #F00;
+    color: #FFF;
+    width: 90%;
+    height: auto;
+    margin-bottom:10px;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+}
+/* Icon */
+#storeclosing_icon { 
+	float:left;
+}
+/* Shortcode */
+.storeclosing_shortcode .storeclosing_show{ 
+    width:inherit;
+}
+/* Table */
+.storeclosing_table{ 
+    border:solid 1px #999;
+    border-radius:5px;
+    background-color:white;
+    color:black;
+    -webkit-box-shadow: 5px 3px 3px #999;
+    -moz-box-shadow: 5px 3px 3px #999;
+    box-shadow: 5px 3px 3px #999;
+    padding: 0px !important;
+}
+/* Table Row Dark */
+.storeclosing_table_row_dark{
+    background-color: #E3E3E3;
+}
+/* Table Row Light */
+.storeclosing_table_row_light{
+    background-color: #F6F6F6;
+}
+/* Upcoming Closing Title */
+.storeclosing_upcoming_table_title_closing{
+    background-color: #6E25BC;
+    color: white !important;
+}
+/* Upcoming Opening Title */
+.storeclosing_upcoming_table_title_opening{
+    background-color: #FF00D9;
+    color: white !important;
+}
+/* Upcoming Titles */
+.storeclosing_upcoming_table_title_closingdate, 
+.storeclosing_upcoming_table_title_closingtime,
+.storeclosing_upcoming_table_title_openingdate,
+.storeclosing_upcoming_table_title_openingtime{
+    background-color: #999;
+    color: white !important; 
+    line-height:1px !important;  
+    border-bottom:solid 3px white;
+}
+/* Upcoming Rows */
+.storeclosing_upcoming_table_closingdate, 
+.storeclosing_upcoming_table_closingtime,
+.storeclosing_upcoming_table_openingdate,
+.storeclosing_upcoming_table_openingtime{
+    font-weight:normal !important;
+}
+/* Daily Title */
+.storeclosing_daily_table_title{
+    background-color: #6E25BC;
+    color: #FFF !important;   
+    line-height:1px !important;  
+    border-bottom:solid 3px white;
+}
+/* Daily Rows */
+.storeclosing_daily_table_row{
+    font-weight:normal !important;    
+}
+/* Daily Active Day */
+.storeclosing_active_day{
+    border:solid 3px #6E25BC;
+}
+/* Upcoming Closing Active Message*/
+.storeclosing_upcoming_close{ 
+    background-color: #6E25BC;
+    color: #FFF;
+    border: solid 1px #FF00D9;
+    height: auto;
+    padding: 9px !important;
+    margin-bottom: 15px !important;
+    font-size: large;
+    font-weight:bold;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(158, 96, 149,0.5);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(158, 96, 149,0.5);
+    box-shadow: 4px 4px 4px 0px rgba(158, 96, 149,0.5);
+}
+/* Upcoming Closing Active Message Inframe*/
+.storeclosing_upcoming_close .storeclosing_inframe{ 
+    border: solid 1px #FF00D9;
+    height: auto;
+    padding: 10px !important;
+}
+/* Upcoming Opening Active Message*/
+.storeclosing_upcoming_open{ 
+    background-color: #FF00D9;
+    color: #FFF;
+    border: solid 1px #6E25BC;
+    height: auto;
+    padding: 9px !important;
+    margin-bottom: 15px !important;
+    font-size: large;
+    font-weight:bold;
+    text-align: center;
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(110, 37, 188,0.5);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(110, 37, 188,0.5);
+    box-shadow: 4px 4px 4px 0px rgba(110, 37, 188,0.5);
+}
+/* Upcoming Opening Active Message Inframe*/
+.storeclosing_upcoming_open .storeclosing_inframe{ 
+    border: solid 1px #6E25BC;
+    height: auto;
+    padding: 10px !important;
+}
+/* Countdown */
+.storeclosing_countdown { 
+    font-weight:bold;
+}
+/* Popup */
+.storeclosing_popup .storeclosing_show{
+	position:relative !important;
+}
+.storeclosing_popup { 
+    width:100%;
+	position: fixed;
+	z-index: 9999999;
+	text-align: -webkit-center;
+    -webkit-animation-duration: .9s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    -webkit-animation-delay: 0;
+    -webkit-animation-play-state: running;
+    -webkit-animation-fill-mode: forwards;
+}
+.storeclosing_popup_close{
+	top: 0;
+	right: 0;	
+	z-index: 99999999999999;
+	overflow: auto;
+	position:absolute;
+	font-size:small;
+	cursor:pointer;
+}
+.storeclosing_popup_close:hover {
+	color:black;
+}
+.storeclosing_popup_top { 
+	top:-100px;
+	-webkit-animation-name: silde_to_top;
+}
+/* Exclude */
+.exclude_message{
+	background-color:#9E6095;
+	padding: 15px!important;
+    border: none!important;
+    color: #fff!important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    text-shadow: none!important;
+    font-size: 18px!important;
+    margin: 0 0 2em;
+}
+@-webkit-keyframes silde_to_top{
+    0%{top:-100px}
+    100%{top:0px}
+}
+.storeclosing_popup_bottom { 
+	bottom:-100px;
+	-webkit-animation-name: silde_to_bottom;
+}
+@-webkit-keyframes silde_to_bottom{
+    0%{bottom:-100px}
+    100%{bottom:0px}
+}

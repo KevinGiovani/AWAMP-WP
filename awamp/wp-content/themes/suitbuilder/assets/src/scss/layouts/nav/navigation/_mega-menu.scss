@@ -1,0 +1,42 @@
+.has-mega-menu{
+    > ul{
+        position: absolute;   
+        @extend %menu-position;
+        width: 100%;
+        background: $color_white;
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: 1rem !important;
+        max-height: 80vh;
+        transform-origin: top;
+        transition: all .2s;
+        box-shadow: 1px 6px 6px #adaaaa;
+        &:before {
+           @extend %menu-icon;
+        }
+        > li {
+            vertical-align: top;
+            display: inline-block;
+            position: relative;
+            max-width: 25%;
+            flex: 0 0 25%;
+            width: 100%;
+            padding-right: 1rem;
+            > a {
+                font-weight: 600;
+                padding-top: 10px !important;
+                padding-bottom: 0 !important;
+            }
+        }
+    }  
+}
+
+.has-mega-menu{   
+    &:hover {
+        >ul {
+           @extend %visible-menu;
+        }        
+    }    
+}

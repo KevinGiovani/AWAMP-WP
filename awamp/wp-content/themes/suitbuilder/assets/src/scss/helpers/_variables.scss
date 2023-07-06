@@ -1,0 +1,32 @@
+/* BASIC COLOR */
+$color_primary        : #1abc9c !default; 
+$color_secondary      : #1abc9c !default;
+$color_black          : #000 !default;
+$color_error          : rgb(252, 130, 130) !default; 
+$color_white          : #fff !default;
+$color_dark_white     : #FCFAFA !default;
+$border_color         : #EDEDED !default;
+$border_color_sec     : #D9D9D9 !default;
+$color_yellow         : #FEC000 !default;
+$color_success        : #27BA4B !default;
+$color_mute           : #8e9696;
+$box-shadow           : 2px 5px 10px rgba(0,0,0,0.1);
+
+/* FONTS */
+$font-primary   : 'Lato', sans-serif;
+$font-secondary   : 'Raleway', sans-serif;
+$font-awesome   : 'FontAwesome';
+$root-font-size : 16px; 
+$prefix         : 'md'; 
+$extra-bold     : 900;
+
+
+/* FONT WEIGHT */
+$font-weight-light  : 300;
+$font_weight-normal : 400;
+$font-weight-semi_bold: 500;
+$font-weight_bold   : 700;
+$font-weight-bolder : 900;
+
+
+

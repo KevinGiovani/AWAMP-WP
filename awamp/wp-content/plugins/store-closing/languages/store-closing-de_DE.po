@@ -1,0 +1,587 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2018-04-25 13:33+0300\n"
+"PO-Revision-Date: 2018-04-25 13:34+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: languages\n"
+
+#: includes/admin/admin-post-action.php:76
+#: includes/admin/admin-post-action.php:89
+msgid "New rank"
+msgstr ""
+
+#: includes/admin/admin-post-action.php:121
+msgid "There is record for this role"
+msgstr ""
+
+#: includes/admin/admin-post-action.php:141
+msgid "There is record for this user"
+msgstr ""
+
+#: includes/admin/admin-post-action.php:155
+msgid "Record was changed."
+msgstr ""
+
+#: includes/admin/admin.php:38 storeclosing.php:135 storeclosing.php:152
+#: storeclosing.php:153
+msgid "Store Closing"
+msgstr ""
+
+#: includes/admin/admin.php:43 includes/class-storeclosing-plugin-config.php:81
+msgid "Active"
+msgstr ""
+
+#: includes/admin/admin.php:51
+msgid "Current Time (from Wordpress Setting)"
+msgstr ""
+
+#: includes/admin/admin.php:57 includes/storeclosing-show.php:319
+#: includes/storeclosing-show.php:323
+msgid "Daily"
+msgstr ""
+
+#: includes/admin/admin.php:58
+msgid "Upcoming"
+msgstr ""
+
+#: includes/admin/admin.php:59 includes/storeclosing-show.php:45
+msgid "Manual"
+msgstr ""
+
+#: includes/admin/admin.php:62
+msgid "Popup"
+msgstr ""
+
+#: includes/admin/admin.php:63
+msgid "Exclude"
+msgstr ""
+
+#: includes/admin/admin.php:64 includes/class-storeclosing-plugin-config.php:83
+#: includes/storeclosing-plugin.php:9
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/admin.php:68
+msgid "RemindMe"
+msgstr ""
+
+#: includes/admin/admin.php:120
+msgid "More details and documentation page"
+msgstr ""
+
+#: includes/admin/admin.php:139
+msgid "First"
+msgstr ""
+
+#: includes/admin/admin.php:144 includes/admin/admin.php:202
+#: includes/admin/admin.php:372 includes/storeclosing-shortcode.php:79
+#: includes/storeclosing-shortcode.php:129
+#: includes/storeclosing-shortcode.php:133
+#: includes/storeclosing-shortcode.php:170
+#: includes/storeclosing-shortcode.php:205
+msgid "Opening"
+msgstr ""
+
+#: includes/admin/admin.php:146 includes/admin/admin.php:204
+#: includes/admin/admin.php:324 includes/storeclosing-shortcode.php:78
+#: includes/storeclosing-shortcode.php:127
+#: includes/storeclosing-shortcode.php:131
+#: includes/storeclosing-shortcode.php:168
+#: includes/storeclosing-shortcode.php:203
+msgid "Closing"
+msgstr ""
+
+#: includes/admin/admin.php:149 includes/admin/admin.php:186
+#: includes/admin/admin.php:207 includes/admin/admin.php:243
+#: includes/admin/admin.php:624
+msgid "Message"
+msgstr ""
+
+#: includes/admin/admin.php:197
+msgid "Second"
+msgstr ""
+
+#: includes/admin/admin.php:253
+msgid "General Notification Message"
+msgstr ""
+
+#: includes/admin/admin.php:256
+msgid "Active Hours"
+msgstr ""
+
+#: includes/admin/admin.php:256 includes/admin/admin.php:628
+msgid "Blank"
+msgstr ""
+
+#: includes/admin/admin.php:256 includes/admin/admin.php:628
+msgid "Invisible"
+msgstr ""
+
+#: includes/admin/admin.php:256 includes/admin/admin.php:424
+msgid "Countdown"
+msgstr ""
+
+#: includes/admin/admin.php:315
+msgid "New Upcoming Plan"
+msgstr ""
+
+#: includes/admin/admin.php:328 includes/admin/admin.php:376
+#: includes/storeclosing-shortcode.php:82
+#: includes/storeclosing-shortcode.php:84
+msgid "Date"
+msgstr ""
+
+#: includes/admin/admin.php:330 includes/admin/admin.php:378
+msgid "Hour"
+msgstr ""
+
+#: includes/admin/admin.php:332 includes/admin/admin.php:380
+msgid "Minute"
+msgstr ""
+
+#: includes/admin/admin.php:335 includes/admin/admin.php:383
+msgid "Notification Message"
+msgstr ""
+
+#: includes/admin/admin.php:337
+msgid ""
+"When you want to close your store for a future date, you can give an earlier "
+"info for your customers. Select the day you want this message appear."
+msgstr ""
+
+#: includes/admin/admin.php:337
+msgid "Show Message"
+msgstr ""
+
+#: includes/admin/admin.php:353 includes/admin/admin.php:364
+msgid "Daily Message to be displayed when this message is active ?"
+msgstr ""
+
+#: includes/admin/admin.php:403
+msgid "Business Plan"
+msgstr ""
+
+#: includes/admin/admin.php:411
+msgid "Open until"
+msgstr ""
+
+#: includes/admin/admin.php:412
+msgid "Close until"
+msgstr ""
+
+#: includes/admin/admin.php:424
+msgid "Closing Time"
+msgstr ""
+
+#: includes/admin/admin.php:424
+msgid "Opening Time"
+msgstr ""
+
+#: includes/admin/admin.php:445
+msgid "This option close your store and shows general notification message."
+msgstr ""
+
+#: includes/admin/admin.php:445
+msgid "Without timestamp and countdown"
+msgstr ""
+
+#: includes/admin/admin.php:446
+msgid "Click for general message"
+msgstr ""
+
+#: includes/admin/admin.php:454
+msgid "STORE is CLOSE"
+msgstr ""
+
+#: includes/admin/admin.php:454
+msgid "STORE is OPEN"
+msgstr ""
+
+#: includes/admin/admin.php:480
+msgid "Popup Preview"
+msgstr ""
+
+#: includes/admin/admin.php:484
+msgid "Show in Area"
+msgstr ""
+
+#: includes/admin/admin.php:487
+msgid "Top"
+msgstr ""
+
+#: includes/admin/admin.php:488
+msgid "Bottom"
+msgstr ""
+
+#: includes/admin/admin.php:502 includes/admin/admin.php:665
+#: includes/class-storeclosing-plugin-config.php:82
+msgid "Store is currently open"
+msgstr ""
+
+#: includes/admin/admin.php:512 includes/admin/admin.php:612
+msgid "Css Class"
+msgstr ""
+
+#: includes/admin/admin.php:516
+msgid "Close Button"
+msgstr ""
+
+#: includes/admin/admin.php:519
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/admin.php:520
+msgid "No"
+msgstr ""
+
+#: includes/admin/admin.php:525
+msgid "Closing Time (sec)"
+msgstr ""
+
+#: includes/admin/admin.php:529 includes/admin/admin.php:616
+msgid "Background Color"
+msgstr ""
+
+#: includes/admin/admin.php:533 includes/admin/admin.php:620
+msgid "Transparent (%)"
+msgstr ""
+
+#: includes/admin/admin.php:537
+msgid "Cookie Expires"
+msgstr ""
+
+#: includes/admin/admin.php:541
+msgid "Days"
+msgstr ""
+
+#: includes/admin/admin.php:545
+msgid "Hours"
+msgstr ""
+
+#: includes/admin/admin.php:549
+msgid "Minutes"
+msgstr ""
+
+#: includes/admin/admin.php:553
+msgid "Seconds"
+msgstr ""
+
+#: includes/admin/admin.php:579
+msgid "Message Preview"
+msgstr ""
+
+#: includes/admin/admin.php:583
+msgid "Exclude Category"
+msgstr ""
+
+#: includes/admin/admin.php:586
+msgid "Select Category"
+msgstr ""
+
+#: includes/admin/admin.php:603
+msgid "Product Name"
+msgstr ""
+
+#: includes/admin/admin.php:628
+msgid "Unauthorized Product(s) List"
+msgstr ""
+
+#: includes/admin/admin.php:651
+msgid "Notification Settings"
+msgstr ""
+
+#: includes/admin/admin.php:654
+msgid "Default CSS"
+msgstr ""
+
+#: includes/admin/admin.php:655
+msgid "Custom"
+msgstr ""
+
+#: includes/admin/admin.php:673
+msgid "Background color"
+msgstr ""
+
+#: includes/admin/admin.php:685
+msgid "Text color"
+msgstr ""
+
+#: includes/admin/admin.php:689
+msgid "Width"
+msgstr ""
+
+#: includes/admin/admin.php:693
+msgid "Padding"
+msgstr ""
+
+#: includes/admin/admin.php:697
+msgid "Font Size"
+msgstr ""
+
+#: includes/admin/admin.php:701
+msgid "Text Align"
+msgstr ""
+
+#: includes/admin/admin.php:705
+msgid "Border Style"
+msgstr ""
+
+#: includes/admin/admin.php:708 includes/admin/admin.php:734
+msgid "None"
+msgstr ""
+
+#: includes/admin/admin.php:709
+msgid "Solid"
+msgstr ""
+
+#: includes/admin/admin.php:710
+msgid "Dashed"
+msgstr ""
+
+#: includes/admin/admin.php:711
+msgid "Dotted"
+msgstr ""
+
+#: includes/admin/admin.php:715
+msgid "Border Width"
+msgstr ""
+
+#: includes/admin/admin.php:719
+msgid "Border color"
+msgstr ""
+
+#: includes/admin/admin.php:723
+msgid "Border Radius"
+msgstr ""
+
+#: includes/admin/admin.php:727
+msgid "Margin"
+msgstr ""
+
+#: includes/admin/admin.php:731
+msgid "Icon"
+msgstr ""
+
+#: includes/admin/admin.php:735
+msgid "Info"
+msgstr ""
+
+#: includes/admin/admin.php:736 includes/storeclosing-show.php:137
+#: includes/storeclosing-show.php:170
+msgid "Warning"
+msgstr ""
+
+#: includes/admin/admin.php:737
+msgid "Clock"
+msgstr ""
+
+#: includes/admin/admin.php:738
+msgid "Key"
+msgstr ""
+
+#: includes/admin/admin.php:739
+msgid "Speech"
+msgstr ""
+
+#: includes/admin/admin.php:740
+msgid "Lock"
+msgstr ""
+
+#: includes/admin/admin.php:741
+msgid "Unlock"
+msgstr ""
+
+#: includes/admin/admin.php:742
+msgid "Megaphone"
+msgstr ""
+
+#: includes/admin/admin.php:743
+msgid "Cart"
+msgstr ""
+
+#: includes/admin/admin.php:749
+msgid "Product Page Notification"
+msgstr ""
+
+#: includes/admin/admin.php:753
+msgid "Shop Page Notification"
+msgstr ""
+
+#: includes/admin/admin.php:757
+msgid "Payment Page Notification"
+msgstr ""
+
+#: includes/admin/admin.php:762
+msgid "Role Permision"
+msgstr ""
+
+#: includes/admin/admin.php:766
+msgid "Select Role"
+msgstr ""
+
+#: includes/admin/admin.php:788
+msgid "Close this"
+msgstr ""
+
+#: includes/admin/admin.php:790
+msgid "WooCommerce Remind Me"
+msgstr ""
+
+#: includes/admin/admin.php:791
+msgid "This plugin"
+msgstr ""
+
+#: includes/admin/admin.php:791
+msgid ""
+"Places a great-looking animated bell icon under the WSC (WooCommerce Store "
+"Closing) notifications. Your customers can type in email addresses and add a "
+"reminder. Automatically sends e-mail when the store is open."
+msgstr ""
+
+#: includes/admin/admin.php:792
+msgid "More Details"
+msgstr ""
+
+#: includes/admin/tips.php:66 includes/storeclosing-show.php:531
+msgid "Close"
+msgstr ""
+
+#: includes/admin/tips.php:69
+msgid "Next"
+msgstr ""
+
+#: includes/admin/tips.php:70
+msgid "Prev"
+msgstr ""
+
+#: includes/admin/tips.php:80
+msgid "START HERE"
+msgstr ""
+
+#: includes/admin/tips.php:81
+msgid ""
+"You can set two different opening and closing times for the days of the "
+"week. The \"checkbox\" next to the day must be selected in order for the "
+"selected hours will be active. \"WooCommerce\" store will be opened online "
+"order at the selected time. Outside these hours, the \"order\" and \"order "
+"complete\" buttons will be invisible. If you have a message in the "
+"\"Notification Message\" field, it will be displayed."
+msgstr ""
+
+#: includes/admin/tips.php:82
+msgid "Very important :"
+msgstr ""
+
+#: includes/admin/tips.php:83
+msgid ""
+" If the daily planner is selected for just one day, the plugin will run all "
+"week.\n"
+"For this reason, please fill in the working hours of the shop weekly."
+msgstr ""
+
+#: includes/class-storeclosing-plugin-config.php:76
+msgid "Store is closed now"
+msgstr ""
+
+#: includes/storeclosing-data.php:73
+msgid "General Message"
+msgstr ""
+
+#: includes/storeclosing-data.php:121
+msgid "Can not order the below product(s) until our store opens.[plist]"
+msgstr ""
+
+#: includes/storeclosing-data.php:148
+msgid "Monday"
+msgstr ""
+
+#: includes/storeclosing-data.php:149
+msgid "Tuesday"
+msgstr ""
+
+#: includes/storeclosing-data.php:150
+msgid "Wednesday"
+msgstr ""
+
+#: includes/storeclosing-data.php:151
+msgid "Thursday"
+msgstr ""
+
+#: includes/storeclosing-data.php:152
+msgid "Friday"
+msgstr ""
+
+#: includes/storeclosing-data.php:153
+msgid "Saturday"
+msgstr ""
+
+#: includes/storeclosing-data.php:154
+msgid "Sunday"
+msgstr ""
+
+#: includes/storeclosing-plugin.php:23
+msgid "Docs"
+msgstr ""
+
+#: includes/storeclosing-plugin.php:24
+msgid "Support"
+msgstr ""
+
+#: includes/storeclosing-shortcode.php:44
+#: includes/storeclosing-shortcode.php:60
+msgid "Day(s)"
+msgstr ""
+
+#: includes/storeclosing-shortcode.php:83
+#: includes/storeclosing-shortcode.php:85
+msgid "Time"
+msgstr ""
+
+#: includes/storeclosing-show.php:49
+msgid "Store is Close"
+msgstr ""
+
+#: includes/storeclosing-show.php:120 includes/storeclosing-show.php:133
+msgid "Upcoming ( Closing )"
+msgstr ""
+
+#: includes/storeclosing-show.php:137 includes/storeclosing-show.php:170
+msgid "No Notification Message"
+msgstr ""
+
+#: includes/storeclosing-show.php:152 includes/storeclosing-show.php:166
+msgid "Upcoming ( Opening )"
+msgstr ""
+
+#: includes/storeclosing-show.php:248 includes/storeclosing-show.php:251
+msgid "Daily (First)"
+msgstr ""
+
+#: includes/storeclosing-show.php:286 includes/storeclosing-show.php:289
+msgid "Daily (Second)"
+msgstr ""
+
+#: includes/storeclosing-show.php:624
+msgid ""
+"Deleted ! WooCommerce / Store Closing / Upcoming Plan (Date / time is old.)"
+msgstr ""
+
+#: storeclosing.php:268
+msgid "is deactivated."
+msgstr ""
+
+#: storeclosing.php:268
+msgid "plugin requires."
+msgstr ""

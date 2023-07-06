@@ -1,0 +1,42 @@
+.single-product {
+	.product .elementor-jet-single-add-to-cart {
+		.cart {
+			.single_add_to_cart_button,
+			.quantity {
+				float: none;
+			}
+
+			.quantity {
+				.input-text{
+					width: 100%;
+					max-width: 100%;
+				}
+			}
+		}
+		
+		.single_variation .price {
+			margin-bottom: 0;
+		}
+
+		.variations {
+			select {
+				vertical-align: top;
+				width: 100%;
+			}
+
+			label {
+				display: block;
+			}
+		}
+	}
+}
+
+.elementor-jet-single-add-to-cart {
+	.reset_variations{
+		margin: 10px 0 0 0;
+	}
+
+	.added_to_cart.wc-forward {
+		display: none !important;
+	}
+}

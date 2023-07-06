@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-10-31 00:30+0000\n"
+"PO-Revision-Date: 2021-10-31 00:33+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Report-Msgid-Bugs-To: \n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.5; wp-5.8.1"
+
+msgid "Apr"
+msgstr "Abr"
+
+msgid "Aug"
+msgstr "Agosto"
+
+msgid "Closed"
+msgstr "Cerrado"
+
+msgid "Closing in {x} minutes"
+msgstr "Estamos cerrando en {X} minutos"
+
+msgid "Dec"
+msgstr "Dic"
+
+msgid "Feb"
+msgstr "Feb"
+
+msgid "Friday"
+msgstr "Viernes"
+
+msgid "It's"
+msgstr "Es"
+
+msgid "Jan"
+msgstr "Enero"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "Mar"
+msgstr "Marzo"
+
+msgid "May"
+msgstr "Mayo"
+
+msgid "Monday"
+msgstr "Lunes"
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "Oct"
+msgstr "Oct"
+
+msgid "Opening in {x} minutes"
+msgstr "Abertura en {X} minutos"
+
+msgid "Saturday"
+msgstr "Sábado"
+
+msgid "Sep"
+msgstr "Sept"
+
+msgid "Sorry, we're closed"
+msgstr "Estamos cerrados"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "Thursday"
+msgstr "Jueves"
+
+msgid "Tuesday"
+msgstr "Martes"
+
+msgid "We're open"
+msgstr "Estamos abiertos"
+
+msgid "Wednesday"
+msgstr "Miércoles"
+
+msgid "and"
+msgstr "y"

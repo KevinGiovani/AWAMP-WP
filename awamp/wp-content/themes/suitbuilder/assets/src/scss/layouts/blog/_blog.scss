@@ -1,0 +1,41 @@
+.blog-style-1 {
+	.entry-meta{
+	    border-top: 1px solid $border-color;
+	    background: $meta-bg;
+	    a {
+	    	color: $color_primary;
+	    	transition: all .3s;
+	    	&:hover {
+	    		color: $color_black;
+	    		text-decoration: none;
+	    	}
+	    }
+	}
+}
+
+.entry-meta {
+	a {
+		color: $meta-color;
+		&:hover {
+			color: $color_primary;
+			text-decoration: none;
+		}
+	}
+}
+
+.meta-box-style {
+    position: absolute;
+    bottom: 0;
+	right: 0;
+	z-index: 9999;
+    a {
+    	font-weight: bold;
+    	color: #676767;
+    }
+}
+
+.blog-wrapper {
+	p {
+		font-size: 0.95rem;
+	}
+}

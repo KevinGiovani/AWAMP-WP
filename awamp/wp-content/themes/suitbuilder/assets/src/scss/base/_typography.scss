@@ -1,0 +1,23 @@
+body{
+    font-family : $font-primary  !important;
+    font-weight : $font-weight-normal;
+    color: $color-black; 
+}
+
+h1, h2, h3,h4,h5,h6 {
+    font-family : $font-secondary !important;
+    font-weight : 700;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    @include media(mobileUp) {
+        font-size: 24px;
+    }
+}
+.elementor-text-editor p {
+    margin-bottom: 0;
+}
+

@@ -1,0 +1,112 @@
+/* social menu */
+.social-menu-icon {
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		li {
+            display: inline-block;
+            padding-right: 10px;
+            &:last-child {
+                padding-right: 0;
+            }
+			a {
+				span {
+					display: none;
+				}
+				&:after {
+                    font-family: 'Font Awesome\ 5 Brands';
+                    font-size: 20px;                  
+                    width: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+				}
+			}
+		}
+	}
+}
+.social-menu-icon {
+    ul {
+        a[href*="facebook.com"]:after,
+        a[href*="fb.com"]:after,
+        a[href*="fb.me"]:after {
+            content: "\f39e";
+            color: #3C579E;
+        }
+        a[href*="twitter.com"]:after {
+            content: "\f099";
+            color: #55acee;
+        }
+        a[href*="linkedin.com"]:after {
+            content: "\f0e1";
+            color: #0077B5;
+        }
+        a[href*="instagram.com"]:after {
+            content: "\f16d";
+            color: #e4405f;
+        }
+        a[href*="youtube.com"]:after {
+            content: "\f167";
+            color: #cd201f;
+        }
+        a[href*="plus.google.com"]:after {
+            content: "\f0d5";
+            color: #dd4b39;
+        }
+        a[href*="pinterest.com"]:after {
+            content: "\f0d2";
+            color: #bd081c;
+        }
+        a[href*="flickr.com"]:after {
+            content: "\f16e";
+            color: #ff0084;
+        }
+        a[href*="tumblr.com"]:after {
+            content: "\f173";
+            color: #34465d;
+        }
+        a[href*="wordpress.org"]:after {
+            content: "\f19a";
+            color: #0073aa;
+        }
+        a[href*="wordpress.com"]:after {
+            content: "\f19a";
+            color: #0073aa;
+        }
+        a[href*="soundcloud.com"]:after {
+            content: "\f1be";
+        }
+        a[href*="dribbble.com"]:after {
+            content: "\f17d";
+            color: #ea4c89;
+        }
+        a[href*="digg.com"]:after {
+            content: "\f1a6";
+        }
+        a[href*="behance.net"]:after {
+            content: "\f1b4";
+        }
+        a[href*="vine.co"]:after {
+            content: "\f1ca";
+        }
+        a[href*="snapchat.com"]:after {
+            content: "\f2ab";
+        }
+        a[href*="reddit.com"]:after {
+            content: "\f1a1";
+        }
+        a[href*="medium.com"]:after {
+            content: "\f23a";
+        }
+        a[href*="whatsapp.com"]:after {
+            content: "\f232";
+        }
+        a[href*="slack.com"]:after {
+            content: "\f198";
+        }
+        a[href*="vk.com"]:after {
+            content: "\f189";
+        }
+    }
+} 

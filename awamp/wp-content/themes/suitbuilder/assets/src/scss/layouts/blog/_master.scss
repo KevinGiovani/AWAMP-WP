@@ -1,0 +1,10 @@
+@import "config",
+		"blog-style-option",
+		"blog";
+		
+.blog-shadow {
+	box-shadow: $shadow;
+}
+.mute-text {
+	color: $mute-color;
+}

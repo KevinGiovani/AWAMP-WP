@@ -1,0 +1,29 @@
+%reset-ul{
+    listy: none;
+    padding: 0;
+    margin: 0;
+}
+%color-primary {
+	color: $color_primary;
+}
+
+%color-secondary {
+	color: $color_secondary;
+}
+
+%bg-secondary {
+	background-color: $color_secondary;
+}
+
+%bg-primary {
+	background-color: $color_primary;
+}
+%bdr-primary {
+	border-color: $color_primary;
+}
+
+%center-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

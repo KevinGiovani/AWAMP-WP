@@ -1,0 +1,106 @@
+.site-footer{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    &:after {
+        content: "";
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        display: block;
+    }
+    .widget{
+        padding: 1.5rem;
+                     
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            li{
+                margin-bottom: .5rem;
+                padding-bottom: .5rem;
+                &:last-child{
+                    margin-bottom: 0;
+                    border-bottom: none;
+                }
+                a{
+                    color: $footer_links_color;
+                    &:hover {
+                        color: $color_white;
+                    }
+                }
+            }
+        }        
+    }
+
+    .widget.about_us_widget{
+        .f_logo{
+            font-size: 2.2rem;
+            line-height: 1;
+        }
+    }
+
+    .widget.widget_address{
+        .widget_inner{
+            a{
+                color: $footer_links_color;
+            }
+            h5{
+                a{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+    
+    
+    .footer-divider{
+        border-top: 2px solid #86868642;
+        position: relative;
+        z-index: 99;
+    }
+
+    .footer-bottom{
+        font-size: .9rem;
+        position: relative;
+        z-index: 99;
+        a{
+            &:hover{
+                @extend %color-primary;
+            }
+        }
+    }
+}
+div#themename {
+    a {
+        color: $color_white;
+        &:hover {
+            @extend %color-primary;
+        }
+    }
+}
+
+footer.footer-top-section {
+    position: relative;
+    z-index: 99;
+}
+
+.full-width-mobile,
+div#themecopy,
+.social-menu-icon,
+div#themename{
+    @include media(mobile){
+        max-width: 100%;
+        flex: 0 0 100%;
+    }    
+}
+
+.footer-bottom- {
+    @include media(mobile){
+       flex-wrap: wrap;
+       text-align: center;
+       line-height: 2;
+    }    
+}
